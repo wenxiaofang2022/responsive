@@ -1,0 +1,192 @@
+/*! footer */
+footer {
+  background: #C96952;
+  color: #DDD5CC;
+  &>section {
+    box-sizing: border-box;
+    padding: 70px 18px 30px;
+  }
+  .c__footerlogo{
+    width:76px; margin-bottom:54px;
+  }
+  .c__contactaddress p + p{
+    margin-top:22px;
+  }
+  .u__btncta {
+    text-align: left;
+    margin-top: 28px;
+    &.v_outline{
+      a,input[type="submit"]{
+        background: none;
+        border: 2px solid #DDD5CC;
+        line-height: 54px;
+        color: #DDD5CC;
+      }
+    }
+  }
+  #mc_embed_signup {
+    margin-top: 58px;
+    input[type="email"] {
+      margin-top: 29px;
+      margin-bottom: 5px;
+    }
+    .u__btncta {
+      position: relative;
+      display: table;
+      input[type="submit"] {
+        padding-right: 69px;
+      }
+      span {
+        position: absolute;
+        top: 20px;
+        right: 31px;
+        pointer-events: none;
+      }
+    }
+    input{
+      &.mce_inline_error {
+        border-color: #F00;
+      }
+    }
+    .mc-field-group {
+      position: relative;
+    }
+    div{
+      &.mce_inline_error {
+        background: #F00;
+        display: table;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 0.875rem;
+        line-height: 38px;
+        height: 38px;
+        font-weight: 300;
+        box-sizing: border-box;
+        border-radius: 60px;
+        padding: 0 19px;
+      }
+      &.mce_inline_error:before {
+        content: '';
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        background: url(../img/icon-cross.svg) center center no-repeat;
+        background-size: 11px;
+        margin-right: 8px;
+      }
+    }
+  }
+  & ::placeholder {
+    color: #DDD5CC;
+    opacity: 1;
+  }
+  & :-ms-input-placeholder {
+    color: #DDD5CC;
+  }
+  & ::-ms-input-placeholder {
+    color: #DDD5CC;
+  }
+}
+
+/*! footer */
+footer { background:#C96952; color:#DDD5CC; }
+footer > section { box-sizing:border-box; padding:70px 18px 30px; }
+footer .u__btncta { text-align:left; margin-top:28px; }
+footer #mc_embed_signup { margin-top:58px; }
+footer #mc_embed_signup input[type="email"] { margin-top:29px; margin-bottom:5px; }
+footer #mc_embed_signup .u__btncta { position:relative; display:table; }
+footer #mc_embed_signup .u__btncta input[type="submit"] { padding-right:69px; }
+footer #mc_embed_signup .u__btncta span { position:absolute; top:20px; right:31px; pointer-events:none; }
+footer #mc_embed_signup input.mce_inline_error { border-color:#F00; }
+footer #mc_embed_signup .mc-field-group { position:relative; }
+footer #mc_embed_signup div.mce_inline_error { background:#F00; display:table; position:absolute; bottom:0; right:0; font-size:0.875rem; line-height:38px; height:38px; font-weight:300; box-sizing:border-box; border-radius:60px; padding:0 19px; }
+footer #mc_embed_signup div.mce_inline_error:before { content:''; display:inline-block; width:11px; height:11px; background:url(../img/icon-cross.svg) center center no-repeat; background-size:11px; margin-right:8px; }
+
+/*! c__footerlogo */
+.c__footerlogo { width:76px; margin-bottom:54px; }
+
+
+/*! c__contactaddress */
+.c__contactaddress p + p { margin-top:22px; }
+
+
+/*! c__copyright */
+.c__copyright { margin-top:83px; display:flex; }
+.c__copyright > article { }
+.c__copyright > article:last-child { margin-left:auto; }
+.c__copyright a { text-decoration:underline; }
+
+
+/*! p__privacypolicy */
+.p__privacypolicy { background:#C2B7AE; }
+
+/*! c__privacypolicy */
+.c__privacypolicy { padding-top:132px; padding-bottom:119px; }
+.c__privacypolicy .s_content { margin-top:56px; }
+.c__privacypolicy .s_content p + h4 { margin-top:41px; }
+.c__privacypolicy .s_content h4 + p { margin-top:21px; }
+
+
+/*! c__corporate */
+.c__corporate { padding-top:132px; padding-bottom:119px; }
+.c__corporate .s_content { position:relative; z-index:-1; }
+.c__corporate .s_image { width:calc(100% + 36px); transform:translateX(-18px); overflow:hidden; margin-top:-11px; margin-bottom:50px; }
+.c__corporate .s_image figure { width: 110.13%; border-radius:300px 0 0 300px; overflow:hidden; margin-left:22px; }
+.c__corporate .u__pdesc + p { margin-top:45px; }
+.c__corporate .s_info { position:relative; z-index:2; }
+
+/*! 560 */
+@media only screen and (min-width: 35.000em) {
+    /*! footer */
+    footer #mc_embed_signup { margin-top:0; }
+
+    /*! c__contactaddress */
+    .c__contactaddress { display:flex; }
+    .c__contactaddress > article { width:50%; margin-top:auto; }
+}
+
+/*! 668 */
+@media only screen and (min-width: 41.750em) {
+  /*! footer */
+  footer > section { padding:70px 27px 40px; }
+  footer #mc_embed_signup input[type="email"] { margin-top:27px; margin-bottom:7px; }
+  footer #mc_embed_signup .u__btncta input[type="submit"] { padding-right:76px; display:block; line-height:64px; }
+  footer #mc_embed_signup .u__btncta span { top:26px; }
+  footer #mc_embed_signup div.mce_inline_error { bottom:-4px; font-size:1.125rem; line-height:42px; height:42px; padding:0 20px; }
+  footer #mc_embed_signup div.mce_inline_error:before { width:14px; height:14px; background-size:14px; margin-right:10px; }
+  footer .u__btncta { margin-top:33px; }
+  footer .u__btncta.v_outline a { line-height:64px; }
+
+  /*! .c__footerlogo */
+  .c__footerlogo { width:93px; margin-bottom:52px; }
+
+  /*! c__contactaddress */
+  .c__contactaddress p + p { margin-top:27px; }
+
+  /*! c__copyright */
+  .c__copyright { margin-top:103px; }
+  .c__copyright p { font-size:1.000rem; line-height:1.188em; }
+}
+
+/*! 898 */
+@media only screen and (min-width: 56.125em) {
+  /*! footer */
+  footer > section { padding:70px 40px 40px; max-width:1400px; margin-left:auto; margin-right:auto; }
+  footer #mc_embed_signup div.mce_inline_error { bottom:-8px; font-size:1.375rem; line-height:47px; height:47px; }
+
+  /*! .c__footerlogo */
+  .c__footerlogo { width:106px; }
+}
+
+/*!1000*/
+@media only screen and (min-width: 62.5em) {
+  /*! .c__footerlogo */
+  .c__footerlogo { width:122px; }
+}
+
+/*!1440*/
+@media only screen and (min-width: 90em) {
+  /*! .c__footerlogo */
+  .c__footerlogo { width:147px; }
+}

@@ -1,0 +1,8 @@
+.e-btn-default{
+  opacity: 1;
+  cursor: pointer;
+  transition:opacity 0.3s ease-out;
+  &:hover{
+    opacity: .8;
+  }
+}

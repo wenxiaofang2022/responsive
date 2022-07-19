@@ -1,0 +1,134 @@
+/*! header */
+header {
+  height: 110px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  .c__mainheader{
+    &>input {
+      display: none;
+    }
+    &>input:checked~nav {
+      transform: translateX(0);
+    }
+    &>input:checked~nav>label {
+      opacity: 1;
+    }
+    &>input:checked~.s_logo path {
+      fill: #FFF;
+    }
+    &>label {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 65px;
+      height: 100%;
+      cursor: pointer;
+      span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 25px;
+        height: 1px;
+        background: #231F20;
+        &:before,&:after{
+          content: '';
+          display: block;
+          left: 0;
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: #231F20;
+        }
+        &:before {
+          top: -12px;
+        }
+        &:after{
+          top: 12px;
+        }
+      }
+    }
+    #s_menu{
+
+    }
+    .s_logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 122px;
+      height: 45px;
+      z-index: 100;
+      path {
+        fill: #231F20;
+        transition: fill 0.3s cubic-bezier(0.49, 0.13, 0.61, 1);
+      }
+    }
+    nav{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #231F20;
+      color: #FFF;
+      box-sizing: border-box;
+      padding: 0 20px;
+      transform: translateX(-100%);
+      transition: transform 0.3s cubic-bezier(0.49, 0.13, 0.61, 1);
+      &>label {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 65px;
+        height: 86px;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.3s cubic-bezier(0.49, 0.13, 0.61, 1);
+        span {
+          width: 33px;
+          height: 33px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+          &:before,&:after{
+            content: '';
+            display: block;
+            position: absolute;
+            background: #FFF;
+          }
+          &:before {
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1px;
+            height: 100%;
+          }
+          &:after {
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 100%;
+            height: 1px;
+          }
+        }
+      }
+      ul {
+        margin-top: 108px;
+        li {
+          font-family: 'Helvetica Now Display Light';
+          font-size: 2.250rem;
+          line-height: 1.000em;
+          margin-bottom: 5px;
+          &.current_page_item {
+            font-family: 'Helvetica Now Display Medium';
+          }
+        }
+      }
+    }
+  }
+}
