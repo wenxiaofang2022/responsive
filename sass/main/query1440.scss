@@ -1,28 +1,4 @@
 @media only screen and (min-width: 1400px){
-  .u__arrow { display:block; position:relative; width:40px; height:55px; margin-left:auto; margin-right:auto;margin-top:106px; }
-  .u__arrow:before, .u__arrow:after { content:''; position:absolute; }
-  .u__arrow:before { width:1.5px; height:100%; top:0; left:50%; transform:translateX(-50%); background:#FFF; }
-  .u__arrow:after { border:solid #FFF; border-width:0 1.5px 1.5px 0; display:inline-block; padding:10px; transform:rotate(45deg);
--webkit-transform:rotate(45deg); bottom:4px; left:9px; }
-  .u__arrow.v_red:before { background:#EE907B; }
-  .u__arrow.v_red:after { border-color:#EE907B; }
-
-  /* c__form */
-  .u__sect + .u__sect.c__form { padding-bottom:107px; }
-  .c__form .s_info figure { max-width:274px; margin-top:24px; }
-  .c__form .s_form { margin-top:32px; transform:translateX(3px); width:calc(100% - 3px); }
-  .c__form .s_form fieldset + fieldset { margin-top:39px; }
-  .c__form .s_form fieldset:last-child { margin-bottom:40px; }
-  .c__form .s_ctas { display:flex; }
-  .c__form .s_form .u__btncta { margin-right:auto; }
-  .c__form .s_form .u__btncta + .u__btncta{ margin:0px; }
-  .c__form .s_info { margin-top:55px; }
-  .c__form .s_info p + p { max-width:416px; }
-
-  .c__form .s_form fieldset.s_checkbox { margin-top:20px !important; }
-  .c__form .s_form fieldset.s_checkbox label { font-size:1.000rem; padding-left:37px; }
-  .c__form .s_form fieldset.s_checkbox label span:first-child {width:26px; height:26px; top:-1px; }
-  .c__form .s_form fieldset.s_checkbox input:checked + label span:first-child:before { width:15px; height:15px; }
   main{
     .c__contents{
       .c__futurehealth{
