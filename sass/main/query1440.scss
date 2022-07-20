@@ -1,0 +1,170 @@
+@media only screen and (min-width: 1400px){
+  .u__arrow { display:block; position:relative; width:40px; height:55px; margin-left:auto; margin-right:auto;margin-top:106px; }
+  .u__arrow:before, .u__arrow:after { content:''; position:absolute; }
+  .u__arrow:before { width:1.5px; height:100%; top:0; left:50%; transform:translateX(-50%); background:#FFF; }
+  .u__arrow:after { border:solid #FFF; border-width:0 1.5px 1.5px 0; display:inline-block; padding:10px; transform:rotate(45deg);
+-webkit-transform:rotate(45deg); bottom:4px; left:9px; }
+  .u__arrow.v_red:before { background:#EE907B; }
+  .u__arrow.v_red:after { border-color:#EE907B; }
+
+  /* c__form */
+  .u__sect + .u__sect.c__form { padding-bottom:107px; }
+  .c__form .s_info figure { max-width:274px; margin-top:24px; }
+  .c__form .s_form { margin-top:32px; transform:translateX(3px); width:calc(100% - 3px); }
+  .c__form .s_form fieldset + fieldset { margin-top:39px; }
+  .c__form .s_form fieldset:last-child { margin-bottom:40px; }
+  .c__form .s_ctas { display:flex; }
+  .c__form .s_form .u__btncta { margin-right:auto; }
+  .c__form .s_form .u__btncta + .u__btncta{ margin:0px; }
+  .c__form .s_info { margin-top:55px; }
+  .c__form .s_info p + p { max-width:416px; }
+
+  .c__form .s_form fieldset.s_checkbox { margin-top:20px !important; }
+  .c__form .s_form fieldset.s_checkbox label { font-size:1.000rem; padding-left:37px; }
+  .c__form .s_form fieldset.s_checkbox label span:first-child {width:26px; height:26px; top:-1px; }
+  .c__form .s_form fieldset.s_checkbox input:checked + label span:first-child:before { width:15px; height:15px; }
+  main{
+    .c__contents{
+      .c__futurehealth{
+        .u__shapelinear{
+          &.v_shape{
+            top: 340px;
+            width: 1151px;
+          }
+        }
+      }
+      .c__specialist{
+        .u__content{
+          .s_programbox{
+            top: 220px;
+          }
+          .s_programmesdiagram{
+            margin-top: 40px;
+          }
+        }
+        .u__shapelinear{
+          &.v_shape{
+            top: 166px;
+            height: 804px;
+            border-radius: 400px;
+          }
+        }
+      }
+      .c__advancing{
+        .u__content{
+          padding-bottom: 84px;
+        }
+        .u__shapelinear{
+          &.v_shape:nth-of-type(1){
+            height: 640px;
+            top: 410px;
+            border-radius:320px;
+          }
+          &.v_shape:nth-of-type(2){
+            height: 640px;
+            border-radius:320px;
+            width: 60%;
+            left: -10%;
+            top: 623px;
+            background: linear-gradient(48deg,rgba(0,0,0,0) 10%,rgba(221,213,204,0) 99%,#ca6952 100%);
+          }
+        }
+      }
+      .c__healthcare{
+        .u__shapelinear{
+          &.v_shape:nth-of-type(1){
+            width: 1105px;
+            height: 438px;
+            border-radius: 219px;
+            left:0px;
+            top: 0px;
+          }
+          &.v_shape:nth-of-type(2){
+            width: 1105px;
+            height: 438px;
+            border-radius: 219px;
+            top: 251px;
+            right: -20%;
+            left: auto;
+          }
+          &.v_shape:nth-of-type(3){
+            width: 1105px;
+            height: 438px;
+            border-radius: 219px;
+            top: 853px;
+            left: -20%;
+          }
+        }
+      }
+      .c__approach{
+        .u__shapelinear{
+          &.v_shape{
+            height: 816px;
+            left: 0px;
+            top: 550px;
+            border-radius: 408px;
+          }
+        }
+      }
+      .c__services{
+        .s_imglist{
+          width: 1220px;
+          height: 500px;
+          margin: 0 auto;
+          position: relative;
+          z-index: 1;
+          margin-left: calc(50% - 610px);
+          figure{
+            width: 322px;
+            height: 322px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            &:nth-child(1){
+              left: 0px;
+              bottom: 0px;
+            }
+            &:nth-child(2){
+              left: 233px;
+              top: 0px;
+            }
+            &:nth-child(3){
+              left: 451px;
+              bottom: 0px;
+            }
+            &:nth-child(4){
+              left: 675px;
+              top: 0px;
+            }
+            &:nth-child(5){
+              right: 0px;
+              bottom: 0px;
+            }
+          }
+        }
+        .u__shapelinear{
+          &.v_shape:nth-of-type(1){
+            height: 536px;
+            border-radius: 268px;
+            top: 456px;
+            left: -40%;
+            background: linear-gradient(48deg,rgba(0,0,0,0) 10%,rgba(221,213,204,0) 99%,#ca6952 100%);
+          }
+          &.v_shape:nth-of-type(2){
+            height: 536px;
+            border-radius: 268px;
+            left: -5%;
+            top: 822px;
+          }
+        }
+      }
+      .c__contents{
+        .u__sect{
+          .u__content{
+            
+          }
+        }
+      }
+    }
+  }
+}
