@@ -273,3 +273,190 @@
     }
   }
 }
+@media only screen and (min-width: 898px){
+  main{
+    &.p__subpages{
+      .c__contents{
+        .c__subpageintro{
+          padding: 0 40px;
+          padding-top: 50px;
+          .s_logo{
+            height: 78px;
+          }
+          .s_title{
+            font-size: 62px;
+            line-height: 74px;
+            margin-top: 62px;
+            margin-bottom: 57px;
+            width: 100%;
+          }
+          .s_shapes{
+            &.s_experience{
+              .u__shapelinear{
+                width: 1700px;
+                height: 677px;
+                left: auto;
+                right: 68px;
+                top: 0px;
+                z-index: -1;
+                border-radius: 339px;
+              }
+            }
+            &.s_experience_detail{
+              .v_shape:nth-child(1){
+                width: 1612px;
+                height: 640px;
+                left: auto;
+                right: 221px;
+                top: 100px;
+                z-index: -1;
+                border-radius: 320px;
+              }
+              .v_shape:nth-child(2){
+                width: 1099px;
+                height: 436px;
+                border-radius: 218px;
+                left: 40%;
+                top: 617px;
+                z-index: -1;
+              }
+            }
+            &.s_experience_poct{
+              .u__shapelinear{
+                width: 2077px;
+                height: 823px;
+                left: auto;
+                right: 40px;
+                top: 216px;
+                z-index: -1;
+                border-radius: 412px;
+              }
+            }
+          }
+          .s_desc{
+            font-size: 33px;
+            line-height: 42px;
+          }
+          .u__arrow{
+            margin-top: 73px;
+          }
+          .s_bigtitle{
+            font-size: 22px;
+            line-height: 30px;
+          }
+          .s_subtitle{
+            font-size: 62px;
+            line-height: 74px;
+          }
+          .s_content{
+            font-size: 22px;
+            line-height: 30px;
+            padding-bottom: 162px;
+          }
+        }
+        .c__imglist{
+          margin-top: 69px;
+          .s_imgitem{
+            width: 819px;
+            height: 609px;
+            border-radius: 86px;
+            padding: 0 60px;
+            padding-top: 80px;
+            h4{
+              font-size: 22px;
+              line-height: 30px;
+            }
+            p{
+              font-size: 62px;
+              line-height: 74px;
+              margin-top:33px;
+              margin-bottom: 86px;
+            }
+          }
+        }
+        .c__imgcaption{
+          padding: 0 40px;
+          padding-bottom: 128px;
+          .s_imgcaption{
+            p{
+              font-size: 22px;
+              line-height: 30px;
+              padding-top: 22px;
+            }
+          }
+        }
+        .c__caseflex{
+          padding: 0 40px;
+          padding-bottom: 128px;
+          padding-top: 231px;
+          .s_subtitle{
+            h2{
+              font-size: 62px;
+              line-height: 74px;
+            }
+          }
+          .s_caselist{
+            display: flex;
+            justify-content: space-between;
+            .s_caseitem{
+              width: 30%;
+              .s_caseicon{
+                height: 60px;
+              }
+              .s_casetitle{
+                font-size: 33px;
+                line-height: 42px;
+                height: 168px;
+                margin-top: 38px;
+              }
+              .s_casedesc{
+                font-size: 18px;
+                line-height: 24px;
+                margin-top: 56px;
+              }
+            }
+          }
+        }
+        .c__videobox{
+          padding-top: 134px;
+          padding-bottom: 134px;
+          .u__content{
+            padding: 0 40px;
+          }
+        }
+        .c__imgtxt{
+          figure{
+            width: 518px;
+            height: 790px;
+          }
+          .s_infodesc{
+            font-size: 33px;
+            line-height: 42px;
+            padding: 0 40px;
+            margin-top: 69px;
+            h4{
+              font-size: 33px;
+              line-height: 40px;
+              padding-top: 32px;
+              padding-bottom: 0px;
+            }
+          }
+        }
+        .c__logolist{
+          width: 766px;
+          margin: 0 auto;
+          margin-top: 153px;
+          margin-bottom: 134px;
+          .s_logoitem{
+            width: 222px;
+            height: 75px;
+            margin-left: 50px;
+            &:nth-child(1){
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

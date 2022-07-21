@@ -422,7 +422,7 @@
                 height: 560px;
                 left: auto;
                 right: 154px;
-                top: 70px;
+                top: 90px;
                 z-index: -1;
                 border-radius: 280px;
               }
@@ -524,11 +524,15 @@
             }
           }
         }
+        .c__videobox{
+          .u__content{
+            padding: 0 28px;
+          }
+        }
         .c__imgtxt{
           figure{
             width:397px;
             height: 609px;
-            border-radius: 198px;
           }
           .s_infodesc{
             font-size: 23px;

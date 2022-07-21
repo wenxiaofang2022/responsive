@@ -680,7 +680,7 @@ main{
           font-size: 35px;
           line-height: 42px;
           font-weight: 600;
-          height: 47px;
+          // height: 47px;
           text-align: center;
           span{
             border: 2px solid #363434;
@@ -832,7 +832,7 @@ main{
           width: 290px;
           height: 445px;
           overflow: hidden;
-          border-radius:145px;
+          border-radius: calc((100vw / 375) * 145);
           margin: 0 auto;
           img{
             display: block;
