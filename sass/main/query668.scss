@@ -386,5 +386,177 @@
         }
       }
     }
+    &.p__subpages{
+      .c__contents{
+        .u__arrow{
+          margin-top: 63px;
+        }
+        .c__subpageintro{
+          .s_logo{
+            height: 62px;
+          }
+          .s_title{
+            font-weight: 300;
+            font-size: 50px;
+            line-height: 58px;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 36px;
+            margin-bottom: 32px;
+          }
+          .s_shapes{
+            &.s_experience{
+              .u__shapelinear{
+                width: 1312px;
+                height: 510px;
+                left: auto;
+                right: 28px;
+                top: 0px;
+                z-index: -1;
+                border-radius: 255px;
+              }
+            }
+            &.s_experience_detail{
+              .v_shape:nth-child(1){
+                width: 1412px;
+                height: 560px;
+                left: auto;
+                right: 154px;
+                top: 70px;
+                z-index: -1;
+                border-radius: 280px;
+              }
+              .v_shape:nth-child(2){
+                width: 962px;
+                height: 382px;
+                left: 40%;
+                top: 524px;
+                z-index: -1;
+              }
+            }
+            &.s_experience_poct{
+              .u__shapelinear{
+                width: 1701px;
+                height: 674px;
+                left: auto;
+                right: 28px;
+                top: 135px;
+                z-index: -1;
+                border-radius: 337px;
+              }
+            }
+          }
+          .s_desc{
+            font-size: 23px;
+            line-height: 32px;
+          }
+          .s_bigtitle{
+            font-size: 18px;
+            line-height: 27px;
+          }
+          .s_subtitle{
+            span{
+              font-weight: 300;
+              font-size: 50px;
+              line-height: 50px;
+              border: 3px solid #363434;
+              border-radius: 80px;
+            }
+          }
+          .s_content{
+            font-size: 18px;
+            line-height: 27px;
+            padding-bottom: 142px;
+          }
+        }
+        .c__imglist{
+          margin-top: 61px;
+          .s_imgitem{
+            height: 525px;
+            width: 612px;
+            border-radius: 64px;
+            padding: 0 55px;
+            padding-top: 58px;
+            h4{
+              font-size: 18px;
+              line-height: 27px;
+            }
+            p{
+              font-weight: 300;
+              font-size: 50px;
+              line-height: 58px;
+              margin-bottom: 59px;
+            }
+          }
+        }
+        .c__imgcaption{
+          border-radius: 0px 0px 140px 140px;
+          .s_imgcaption{
+            p{
+              font-size: 18px;
+              line-height: 27px;
+            }
+          }
+        }
+        .c__caseflex{
+          padding: 0 28px;
+          padding-top: 231px;
+          padding-bottom: 102px;
+          .s_subtitle{
+            h2{
+              font-size: 50px;
+              line-height: 58px;
+            }
+          }
+          .s_caselist{
+            .s_caseitem{
+              .s_caseicon{
+                height: 42px;
+              }
+              .s_casetitle{
+                font-size: 23px;
+                line-height: 32px;
+              }
+              .s_casedesc{
+                font-size: 16px;
+                line-height: 23px;
+              }
+            }
+          }
+        }
+        .c__imgtxt{
+          figure{
+            width:397px;
+            height: 609px;
+            border-radius: 198px;
+          }
+          .s_infodesc{
+            font-size: 23px;
+            line-height: 32px;
+            padding: 0 28px;
+            h4{
+              font-size: 23px;
+              line-height: 32px;
+            }
+          }
+        }
+        .c__logolist{
+          width: 614px;
+          margin: 0 auto;
+          margin-top: 133px;
+          margin-bottom: 106px;
+          overflow: hidden;
+          .s_logoitem{
+            float: left;
+            margin: 0;
+            padding: 0;
+            margin-left: 40px;
+            &:nth-child(1){
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+    }
   }
 }

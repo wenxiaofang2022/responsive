@@ -616,7 +616,7 @@ main{
           height: 54px;
           img{
             display: block;
-            height: 54px;
+            height:100%;
             margin: 0 auto;
           }
         }
@@ -753,10 +753,10 @@ main{
         position: relative;
         z-index: 2;
         .s_imgcaption{
+          width: 100%;
           figure{
-            width: 339px;
-            height: 168px;
-            border-radius: 30px;
+            width: 100%;
+            border-radius: calc((100vw / 339) * 30);
             overflow: hidden;
           }
           p{
@@ -862,17 +862,24 @@ main{
         }
       }
       .c__logolist{
-        padding-top: 106px;
-        padding-bottom: 106px;
+        margin-top: 106px;
+        margin-bottom: 106px;
         .s_logoitem{
+          width: 178px;
           height: 60px;
+          margin: 0 auto;
           margin-top: 28px;
+          position: relative;
           &:nth-child(1){
             margin-top: 0px;
           }
           img{
             display: block;
             height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
           }
         }
       }

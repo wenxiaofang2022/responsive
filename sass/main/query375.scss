@@ -156,3 +156,26 @@
     }
   }
 }
+@media only screen and (min-width: 500px){
+  main{
+    &.p__subpages{
+      .c__contents{
+        .c__subpageintro{
+          padding: 0 28px;
+          padding-top: 34px;
+        }
+        .c__imglist{
+          padding: 0 28px;
+          .s_imgitem{
+            width: 100%;
+            border-radius: 54px;
+          }
+        }
+        .c__imgcaption{
+          padding: 0 28px;
+          padding-bottom: 102px;
+        }
+      }
+    }
+  }
+}
