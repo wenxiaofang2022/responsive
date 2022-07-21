@@ -2,60 +2,81 @@
 <html class="no-js has-scroll-init has-scroll-smooth is-loaded is-ready" lang="">
 
 <head>
-    @@include("include/tkd.htm",{ "title":"early-title", "keywords": "early-keywords", "description":
-    "early-description" })
+  @@include("include/tkd.htm",{ "title":"early-title", "keywords": "early-keywords", "description":
+  "early-description" })
 </head>
 
 <body>
   @@include("include/header.htm")
-  <main>
+  <main class="p__subpages">
+    <!-- 我写了一个 p__xxx 类，p 定义为页面样式 -->
     <section>
       <section class="c__contents">
         <div>
-          <section class="u__sect c__experience">
+          <!-- 这一个和主页面不同，所以我刚开始直接编写c__xxx类，因为页面将由组件组成 -->
+          <!-- 这个概念和方法遵循设计系统思维，因为我们所有的 UX / UI 设计都遵循这些原则 -->
+
+          <!-- 这部分实际上是遵循你的 c__title 结构 -->
+          <section class="c__subpageintro">
+            <!-- 我使用 subpageintro，这样下次如果设计不同，我们可以使用 mainpageintro 等其他页面标题 -->
+            <!-- 所有 c__ 类都将首先有一个 div 作为包含内容的包装器 -->
             <div>
-              <div class="u__content">
-                <div class="u__shapelinear v_shape"></div>
-                <section class="c__title">
-                  <article>
-                    <figure class="s_logo">
-                      <img src="@@webRoot/img/logo-healthcare.svg">
-                    </figure>
-                    <h1 class="s_title">GE Healthcare's First R reference Centre in ASEAN</h1>
-                    <p class="s_desc">Conceptualised by an award-winning team of spatial and user experience designers, early Medical Centre aims to raise the level of service in healthcare. Respectful, guided, and highly personalised, in a space that feels safe and reassuring.</p>
-                  </article>
-                </section>
-                <span class="u__arrow v_red"></span>
-                <section class="c__imgList">
-                  <article class="c__imgitem">
-                    <figure>
-                      <img src="@@webRoot/img/hero-landing-v2.jpg"/>
-                    </figure>
-                    <p>Conceptualised by an award-winning team of spatial and user experience designers, early Medical Centre aims</p>
-                    <div class="u__btncta">
-                      <a href="#">Experience early<span></span></a>
-                    </div>
-                  </article>
-                  <article class="c__imgitem">
-                    <figure>
-                      <img src="@@webRoot/img/hero-landing-v2.jpg"/>
-                    </figure>
-                    <p>Conceptualised by an award-winning team of spatial and user experience designers, early Medical Centre aims</p>
-                    <div class="u__btncta">
-                      <a href="#">Experience early<span></span></a>
-                    </div>
-                  </article>
-                  <article class="c__imgitem">
-                    <figure>
-                      <img src="@@webRoot/img/hero-landing-v2.jpg"/>
-                    </figure>
-                    <p>Conceptualised by an award-winning team of spatial and user experience designers, early Medical Centre aims</p>
-                    <div class="u__btncta">
-                      <a href="#">Experience early<span></span></a>
-                    </div>
-                  </article>
-                </section>
+              <article>
+                <figure class="s_logo">
+                  <img src="@@webRoot/img/logo-healthcare.svg">
+                </figure>
+                <h1 class="s_title">GE Healthcare’s First Reference Centre in ASEAN</h1>
+                <p class="s_desc"><strong>early Medical Centre</strong> becomes the first ASEAN Reference Centre for GE Healthcare following early's investment in the most advanced 
+                  GE radiological diagnostic equipment.</p>
+              </article>
+
+              <!-- 我将创建一个 s_shapes 并将 u__shapelinear 放在里面 -->
+              <!-- 因为将来，在 CMS 中，我们将设置此介绍组件是否具有形状和箭头 -->
+              <div class="s_shapes s_experience">
+                <div class="u__shapelinear v_shape half_transparent"></div>
               </div>
+
+              <!-- 我会把它放在这里 -->
+              <span class="u__arrow v_red"></span>
+            </div>
+          </section>
+
+          <section class="c__imglist">
+            <!-- 这个我会改成 c__imglist, 你在使用 c__imgList, 你用了一个好的命名，xxxlist 后跟 xxxitem -->
+            <!-- 所有 c__ 类都将首先有一个 div 作为包含内容的包装器 -->
+            <div>
+              <article class="s_imgitem">
+                <!-- 这个我会改成 s_imgitem, 对于这样的布局，我们在一个容器中有很多项目，我将使用 _items，然后是 _item -->
+                <figure>
+                  <img src="@@webRoot/img/breast-cancer.jpg" />
+                </figure>
+                <!-- 文案颜色设置 -->
+                <h4 style="color:#fff;">3D Automated Breast Ultrasound</h4>
+                <p style="color:#fff;">Low radiation Breast Cancer screening for Asian women under 40.</p>
+                <div class="u__btncta">
+                  <a href="#">Learn more<span></span></a>
+                </div>
+              </article>
+              <article class="s_imgitem">
+                <figure>
+                  <img src="@@webRoot/img/breast-cancer.jpg" />
+                </figure>
+                <h4>3D Automated Breast Ultrasound</h4>
+                <p>Low radiation Breast Cancer screening for Asian women under 40.</p>
+                <div class="u__btncta">
+                  <a href="#">Learn more<span></span></a>
+                </div>
+              </article>
+              <article class="s_imgitem">
+                <figure>
+                  <img src="@@webRoot/img/breast-cancer.jpg" />
+                </figure>
+                <h4>3D Automated Breast Ultrasound</h4>
+                <p>Low radiation Breast Cancer screening for Asian women under 40.</p>
+                <div class="u__btncta">
+                  <a href="#">Learn more<span></span></a>
+                </div>
+              </article>
             </div>
           </section>
         </div>
