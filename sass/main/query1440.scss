@@ -144,3 +144,80 @@
     }
   }
 }
+@media only screen and (min-width: 1440px){
+  main{
+    &.p__subpages{
+      .c__contents{
+        .c__subpageintro{
+          padding: 0 60px;
+          padding-top: 53px;
+          .s_title{
+            width: 60%;
+          }
+          .s_desc{
+            width: 80%;
+            margin: 0 auto;
+          }
+          .s_shapes{
+            &.s_experience{
+              .u__shapelinear{
+                
+              }
+            }
+            &.s_experience_poct{
+              .u__shapelinear{
+                right:12.7%;
+                width: 1611px;
+                height: 640px;
+              }
+            }
+          }
+          .s_content{
+            width: 60%;
+            margin: 0 auto;
+          }
+        }
+        .c__imglist{
+          padding: 0 60px;
+          .s_imgitem{
+            width: 1320px;
+            height: 684px;
+            border-radius:80px;
+            padding: 0 278px;
+            padding-top: 127px;
+          }
+        }
+        .c__imgcaption{
+          .s_imgcaption{
+            width: 890px;
+            margin: 0 auto;
+            figure{
+              border-radius: 86px;
+            }
+          }
+        }
+        .c__imgtxt{
+          .s_flex{
+            display: block;
+            overflow: hidden;
+            figure{
+              width: 518px;
+              height: 796px;
+              float: left;
+              img{
+                width: 518px;
+                height: 796px;
+                border-radius: 259px;
+              }
+            }
+            .s_infodesc{
+              width: 50.3%;
+              float: left;
+              margin-left: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

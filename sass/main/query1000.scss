@@ -315,7 +315,12 @@
                 height: 624px;
                 border-radius: 312px;
                 left: auto;
-                right: 124px;
+                right: 12.4%;
+              }
+            }
+            &.s_experience_poct{
+              .u__shapelinear{
+                right:12.7%;
               }
             }
           }
@@ -332,12 +337,15 @@
           padding: 0 55px;
           padding-bottom: 128px;
         }
+        .c__caseflex{
+          padding: 0 60px;
+          padding-bottom: 128px;
+        }
         .c__imgtxt{
           .s_flex{
             display: flex;
             justify-content: space-between;
-            padding: 0 40px;
-            padding-top: 57px;
+            padding: 0 60px;
             figure{
               height: 548px;
               width: 49%;
@@ -345,7 +353,7 @@
               img{
                 width: 357px;
                 height: 548px;
-                border-radius: calc((100vw / 375) * 145);
+                border-radius:179px;
               }
             }
             .s_infodesc{
@@ -362,6 +370,11 @@
           .s_logoitem{
             width: 246px;
             height: 83px;
+          }
+        }
+        .c__videobox{
+          .u__content{
+            padding: 0 60px;
           }
         }
       }
