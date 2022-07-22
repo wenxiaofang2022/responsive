@@ -445,10 +445,22 @@
                 border-radius: 337px;
               }
             }
+            &.s_service{
+              .u__shapelinear{
+                width: 1310px;
+                height: 520px;
+                left: auto;
+                right: 28px;
+                top: 0px;
+              }
+            }
           }
           .s_desc{
             font-size: 23px;
             line-height: 32px;
+            &.s_service_desc{
+              padding: 0 14px;
+            }
           }
           .s_bigtitle{
             font-size: 18px;
@@ -467,6 +479,42 @@
             font-size: 18px;
             line-height: 27px;
             padding-bottom: 142px;
+          }
+          .s_toptitle{
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 36px;
+          }
+          .s_line{
+            height: 100px;
+          }
+          .s_servicelist{
+            .s_serviceitem{
+              .s_subtitle{
+                font-size: 50px;
+                line-height: 50px;
+              }
+              .s_graffiti{
+                width: 150px;
+                margin-top: 33px;
+                margin-bottom: 21px;
+              }
+              .s_content{
+                padding: 0 14px;
+                padding-bottom: 36px;
+              }
+              .u__btncta{
+                height: 64px;
+                min-width: 426px;
+                max-width: 100%;
+                a{
+                  padding: 0 30px;
+                  line-height: 64px;
+                  font-size: 28px;
+                  white-space: nowrap;
+                }
+              }
+            }
           }
         }
         .c__imglist{

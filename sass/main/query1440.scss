@@ -157,6 +157,9 @@
           .s_desc{
             width: 80%;
             margin: 0 auto;
+            &.s_service_desc{
+              width: 50%;
+            }
           }
           .s_shapes{
             &.s_experience{
@@ -171,10 +174,39 @@
                 height: 640px;
               }
             }
+            &.s_service{
+              .u__shapelinear{
+                right: 131px;
+              }
+            }
           }
           .s_content{
             width: 60%;
             margin: 0 auto;
+          }
+          .s_servicelist{
+            .s_serviceflex{
+              .s_serviceitem{
+                .u__btncta{
+                  height: 64px;
+                  min-width: 426px;
+                  max-width: 461px;
+                  a{
+                    padding: 0 30px;
+                    line-height: 64px;
+                    font-size: 28px;
+                  }
+                }
+              }
+            }
+            .s_serviceitem{
+              .s_content{
+                width: 46%;
+              }
+              .s_two_arrow{
+                width: 741px;
+              }
+            }
           }
         }
         .c__imglist{

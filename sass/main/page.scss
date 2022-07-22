@@ -612,6 +612,8 @@ main{
         padding-top: 34px;
         position: relative;
         z-index: 3;
+        max-width: 1440px;
+        margin: 0 auto;
         .s_logo{
           height: 54px;
           img{
@@ -632,6 +634,9 @@ main{
           font-size: 20px;
           line-height: 25px;
           text-align: center;
+          &.s_service_desc{
+            margin-top: 44px;
+          }
         }
         .s_shapes{
           &.s_experience{
@@ -674,6 +679,16 @@ main{
               border-radius: 265px;
             }
           }
+          &.s_service{
+            .u__shapelinear{
+              width: 1158px;
+              height: 460px;
+              left: auto;
+              right: 18px;
+              top: 0px;
+              z-index: -1;
+            }
+          }
         }
         .s_subtitle{
           font-weight: 300;
@@ -701,6 +716,60 @@ main{
           line-height: 20px;
           text-align: left;
           padding-bottom: 100px;
+        }
+        .s_toptitle{
+          font-family: 'Dosis';
+          font-style: normal;
+          font-size: 18px;
+          line-height: 23px;
+          text-align: center;
+          margin-bottom: 26px;
+          font-weight: 600;
+        }
+        .s_line{
+          width: 1.5px;
+          height: 80px;
+          background:#EE907B;
+          margin:35px auto;
+        }
+        .s_servicelist{
+          padding-bottom: 106px;
+          .s_serviceflex{
+            .s_serviceitem{
+              margin-top: 54px;
+            }
+          }
+          .s_serviceitem{
+            .s_bigtitle{
+              margin-bottom: 25px;
+            }
+            .s_subtitle{
+              font-weight: 300;
+            }
+            .s_graffiti{
+              width: 133px;
+              margin: 0 auto;
+              margin-top: 32px;
+              margin-bottom: 19px;
+            }
+            .s_content{
+              text-align: center;
+              padding-bottom: 36px;
+            }
+            .u__btncta{
+              height: 87px;
+              min-width: 240px;
+              max-width: 250px;
+              margin: 0 auto;
+              a{
+                height: 100%;
+                font-size: 23px;
+                line-height: 29px;
+                text-align: left;
+                padding-top: 13px;
+              }
+            }
+          }
         }
       }
       .c__imglist{
@@ -829,6 +898,8 @@ main{
       .c__imgtxt{
         position: relative;
         z-index: 4;
+        max-width: 1440px;
+        margin: 0 auto;
         figure{
           width: 290px;
           height: 445px;
