@@ -689,6 +689,26 @@ main{
               z-index: -1;
             }
           }
+          &.s_experts{
+            .v_shape:nth-child(1){
+              width: 886px;
+              height: 351px;
+              border-radius:176px;
+              left: auto;
+              right: 47px;
+              top: 359px;
+              z-index: -1;
+            }
+            .v_shape:nth-child(2){
+              width: 886px;
+              height: 351px;
+              border-radius:176px;
+              left:auto;
+              right: -30%;
+              top: 621px;
+              z-index: -1;
+            }
+          }
         }
         .s_subtitle{
           font-weight: 300;
@@ -767,6 +787,75 @@ main{
                 line-height: 29px;
                 text-align: left;
                 padding-top: 13px;
+              }
+            }
+          }
+        }
+        .s_graffiti{
+          width: 300px;
+          margin: 0 auto;
+        }
+        .s_bigtit{
+          font-weight: 300;
+          margin-bottom: 44px;
+          span{
+            font-size: 35px;
+            border: 2px solid #363434;
+            border-radius: 60px;
+            padding:0 22px;
+            display: inline-block;
+            &:nth-child(1){
+              margin-left: 8px;
+            }
+            &:nth-child(2){
+              margin-left: 35px;
+              margin-top: 7px;
+            }
+          }
+        }
+        .c__experts{
+          margin-top: 47px;
+          padding-bottom: 102px;
+          .s_expertstitle{
+            width: 280px;
+            height: 280px;
+            font-size: 35px;
+            line-height: 133px;
+            text-align: center;
+            border-radius:50%;
+            background: url("../img/shape-programme-modern.svg") no-repeat center;
+            background-size:280px 280px;
+            margin: 0 auto;
+          }
+          .s_expertslist{
+            margin-top: -147px;
+            .s_expertitem{
+              text-align: left;
+              margin-top: 66px;
+              &:nth-child(1){
+                margin-top: 0px;
+              }
+              figure{
+                width: 100%;
+              }
+              .s_name{
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+                margin-top: 17px;
+                text-align: left;
+              }
+              .s_desc{
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 5px;
+                text-align: left;
+              }
+              .s_detail{
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 20px;
+                text-align: left;
               }
             }
           }

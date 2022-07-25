@@ -344,6 +344,45 @@
               }
             }
           }
+          .s_bigtit{
+              span{
+                font-size: 62px;
+                padding: 0 38px;
+                &:nth-child(1){
+                  margin-left:0px;
+                }
+                &:nth-child(2){
+                  margin-left:6px;
+                }
+            }
+          }
+          .c__experts{
+            padding-bottom: 0px;
+            .s_expertstitle{
+              width: 382px;
+              height: 382px;
+              font-size:62px;
+              line-height: 204px;
+              background-size: 382px 382px;
+            }
+            .s_expertslist{
+              margin-top: -178px;
+              .s_expertitem{
+                width:30%;
+                height:466px;
+                &:nth-child(3n){
+                  float: right;
+                }
+                &:nth-child(3n+1){
+                  float: left;
+                }
+                &:nth-child(3n+2){
+                  float: left;
+                  margin-left:5%;
+                }
+              }
+            }
+          }
         }
         .c__imglist{
           .s_imgitem{

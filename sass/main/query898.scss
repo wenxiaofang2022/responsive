@@ -421,6 +421,49 @@
               }
             }
           }
+          .s_graffiti{
+            width: 465px;
+          }
+          .s_bigtit{
+              span{
+                font-size: 62px;
+              &:nth-child(1){
+                margin-left: 147px;
+              }
+              &:nth-child(2){
+                margin-left: 236px;
+              }
+            }
+          }
+          .c__experts{
+            padding-bottom: 0px;
+            .s_expertstitle{
+              width: 382px;
+              height: 382px;
+              font-size:62px;
+              line-height: 204px;
+              background-size: 382px 382px;
+            }
+            .s_expertslist{
+              margin-top: -178px;
+              .s_expertitem{
+                width:47%;
+                height:505px;
+                .s_name{
+                  font-size: 26px;
+                  line-height: 30px;
+                }
+                .s_desc{
+                  font-size: 22px;
+                  line-height: 30px;
+                }
+                .s_detail{
+                  font-size: 18px;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
         }
         .c__imglist{
           margin-top: 69px;

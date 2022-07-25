@@ -454,6 +454,24 @@
                 top: 0px;
               }
             }
+            &.s_experts{
+              .v_shape:nth-child(1){
+                width: 1471px;
+                height: 584px;
+                left: auto;
+                right: 110px;
+                top: 359px;
+                z-index: -1;
+              }
+              .v_shape:nth-child(2){
+                width: 1471px;
+                height: 584px;
+                left:auto;
+                right: -30%;
+                top: 794px;
+                z-index: -1;
+              }
+            }
           }
           .s_desc{
             font-size: 23px;
@@ -512,6 +530,56 @@
                   line-height: 64px;
                   font-size: 28px;
                   white-space: nowrap;
+                }
+              }
+            }
+          }
+          .s_graffiti{
+            width: 392px;
+          }
+          .s_bigtit{
+            span{
+              font-size: 50px;
+              border-width: 3px;
+              &:nth-child(1){
+                margin-left: 75px;
+              }
+              &:nth-child(2){
+                margin-left: 130px;
+              }
+            }
+          }
+          .c__experts{
+            padding-bottom: 0px;
+            .s_expertstitle{
+              width: 300px;
+              height: 300px;
+              font-size: 50px;
+              line-height: 141px;
+              background-size: 300px 300px;
+            }
+            .s_expertslist{
+              margin-top: -159px;
+              overflow: hidden;
+              .s_expertitem{
+                width:45%;
+                height:400px;
+                float: left;
+                margin-top: 0px;
+                &:nth-child(2n){
+                  float: right;
+                }
+                .s_name{
+                  font-size: 21px;
+                  line-height: 25px;
+                }
+                .s_desc{
+                  font-size: 18px;
+                  line-height: 27px;
+                }
+                .s_detail{
+                  font-size: 16px;
+                  line-height: 25px;
                 }
               }
             }

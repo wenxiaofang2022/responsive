@@ -208,6 +208,40 @@
               }
             }
           }
+          .s_bigtit{
+            span{
+              font-size: 62px;
+              padding: 0 38px;
+              &:nth-child(1){
+                margin-left:297px;
+              }
+              &:nth-child(2){
+                margin-left:6px;
+              }
+            }
+          }
+          .c__experts{
+            padding-bottom: 0px;
+            .s_expertslist{
+              margin-top: -178px;
+              .s_expertitem{
+                height:518px;
+                &:nth-child(3n){
+                  float: right;
+                }
+                &:nth-child(3n+1){
+                  float: left;
+                }
+                &:nth-child(3n+2){
+                  float: left;
+                  margin-left:5%;
+                }
+                .s_desc{
+                  width: 100%;
+                }
+              }
+            }
+          }
         }
         .c__imglist{
           padding: 0 60px;
