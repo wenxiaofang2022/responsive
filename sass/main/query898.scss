@@ -425,6 +425,13 @@
             width: 465px;
           }
           .s_bigtit{
+              &.s_optimise{
+                span{
+                  font-size: 62px;
+                  line-height: 73px;
+                  padding: 0 40px;
+                }
+              }
               span{
                 font-size: 62px;
               &:nth-child(1){
@@ -460,6 +467,37 @@
                 .s_detail{
                   font-size: 18px;
                   line-height: 24px;
+                }
+              }
+            }
+          }
+          .c__optimise{
+            padding-bottom: 25px;
+            .s_optimiselist{
+              .s_optimiseitem{
+                height: 560px;
+                figure{
+                  width: 241px;
+                }
+                .s_name{
+                  font-size: 33px;
+                  line-height: 42px;
+                  margin-top: 34px;
+                  margin-bottom: 23px;
+                }
+                .s_desc{
+                  font-size: 22px;
+                  line-height: 30px;
+                  height: 90px;
+                }
+                .u__btncta{
+                  height: 65px;
+                  width: 275px;
+                  margin-top: 52px;
+                  a{
+                    height: 65px;
+                    line-height: 65px;
+                  }
                 }
               }
             }
