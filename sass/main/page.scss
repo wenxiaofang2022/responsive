@@ -1159,6 +1159,9 @@ main{
   left: 0px;
   top: 0px;
   z-index: 111;
+  &.s_hidden{
+    display: none;
+  }
   .s_modalbox{
     width: 100%;
     height: 100%;
@@ -1173,6 +1176,7 @@ main{
     background: #DFD4CB;
     text-align: left;
     padding: 69px 18px 100px;
+    overflow: hidden;
     .s_title{
       position: relative;
       z-index: 1;
@@ -1304,6 +1308,26 @@ main{
             }
           }
         }
+      }
+    }
+    .s_shapes{
+      .v_shape:nth-child(2){
+        width: 735px;
+        height: 291px;
+        left: 36px;
+        right: auto;
+        top: 432px;
+        z-index: -1;
+        opacity: 0.45;
+      }
+      .v_shape:nth-child(1){
+        width: 735px;
+        height: 291px;
+        left:auto;
+        right: 17px;
+        top: 664px;
+        z-index: -1;
+        opacity: 0.45;
       }
     }
   }

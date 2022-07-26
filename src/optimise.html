@@ -40,7 +40,7 @@
                         <p class="s_desc">the powerhouse of your body – the cardiovascular system.</p>
                       </div>
                       <div class="u__btncta">
-                        <a href="#">Learn more<span></span></a>
+                        <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
                     <article class="s_optimiseitem">
@@ -52,7 +52,7 @@
                         <p class="s_desc">the powerhouse of your body – the cardiovascular system.</p>
                       </div>
                       <div class="u__btncta">
-                        <a href="#">Learn more<span></span></a>
+                        <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
                     <article class="s_optimiseitem">
@@ -64,7 +64,7 @@
                         <p class="s_desc">the powerhouse of your body – the cardiovascular system.</p>
                       </div>
                       <div class="u__btncta">
-                        <a href="#">Learn more<span></span></a>
+                        <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
                     <article class="s_optimiseitem">
@@ -76,7 +76,7 @@
                         <p class="s_desc">the powerhouse of your body – the cardiovascular system.</p>
                       </div>
                       <div class="u__btncta">
-                        <a href="#">Learn more<span></span></a>
+                        <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
                     <article class="s_optimiseitem">
@@ -88,7 +88,7 @@
                         <p class="s_desc">the powerhouse of your body – the cardiovascular system.</p>
                       </div>
                       <div class="u__btncta">
-                        <a href="#">Learn more<span></span></a>
+                        <a href="javascript:void(0);">Learn more<span></span></a>
                       </div>
                     </article>
                   </div>
@@ -101,7 +101,7 @@
     </section>
   </main>
   <!-- 弹窗 -->
-  <section class="c__optimise_modal">
+  <section class="c__optimise_modal s_hidden">
     <div class="s_modalbox">
       <div class="s_modalbg"></div>
       <article class="s_modalcontent">
@@ -116,8 +116,10 @@
           <p class="s_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </article>
         <article class="s_ullist">
-          <div class="u__shapelinear v_shape"></div>
-          <div class="u__shapelinear v_shape"></div>
+          <div class="s_shapes">
+            <div class="u__shapelinear v_white v_shape half_transparent"></div>
+            <div class="u__shapelinear v_white v_flip v_shape half_transparent"></div>
+          </div>
           <article class="s_ul">
             <section class="c_infolist">
               <h4>Recommended for</h4>
@@ -155,7 +157,7 @@
             <section class="c_buybox">
               <p class="s_price">$99</p>
               <div class="u__btncta">
-                <a href="#">Book appointment<span></span></a>
+                <a href="javascript:void(0);">Book appointment<span></span></a>
               </div>
             </section>
           </article>
@@ -165,5 +167,11 @@
   </section>
   @@include("include/footer.htm")
 </body>
-
+<script type="text/javascript">
+  $(document).ready(function () {
+      $(".s_optimiseitem .u__btncta").on("click","a",function(){
+        $(".c__optimise_modal").removeClass("s_hidden");
+      })
+  })
+</script>
 </html>

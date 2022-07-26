@@ -491,6 +491,26 @@
           width: 380px;
         }
       }
+      .s_shapes{
+        .v_shape:nth-child(2){
+          width: 1133px;
+          height: 450px;
+          left: 275px;
+          right: auto;
+          top: 439px;
+          z-index: -1;
+          opacity: 0.45;
+        }
+        .v_shape:nth-child(1){
+          width: 1133px;
+          height: 450px;
+          left:auto;
+          right: 108px;
+          top: 767px;
+          z-index: -1;
+          opacity: 0.45;
+        }
+      }
     }
   }
 }

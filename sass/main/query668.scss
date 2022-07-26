@@ -840,6 +840,26 @@
           }
         }
       }
+      .s_shapes{
+        .v_shape:nth-child(2){
+          width: 959px;
+          height: 381px;
+          left: 137px;
+          right: auto;
+          top: 448px;
+          z-index: -1;
+          opacity: 0.45;
+        }
+        .v_shape:nth-child(1){
+          width: 959px;
+          height: 381px;
+          left:auto;
+          right: 31px;
+          top: 751px;
+          z-index: -1;
+          opacity: 0.45;
+        }
+      }
     }
   }
 }

@@ -716,6 +716,26 @@
           }
         }
       }
+      .s_shapes{
+        .v_shape:nth-child(2){
+          width: 1133px;
+          height: 450px;
+          left: 172px;
+          right: auto;
+          top: 458px;
+          z-index: -1;
+          opacity: 0.45;
+        }
+        .v_shape:nth-child(1){
+          width: 1133px;
+          height: 450px;
+          left:auto;
+          right: 121px;
+          top: 816px;
+          z-index: -1;
+          opacity: 0.45;
+        }
+      }
     }
   }
 }
