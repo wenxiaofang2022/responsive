@@ -261,6 +261,10 @@
               }
             }
           }
+          &.s_experience_poct{
+            width: 1000px;
+            margin: 0 auto;
+          }
         }
         .c__imglist{
           padding: 0 60px;
@@ -281,26 +285,39 @@
             }
           }
         }
-        .c__imgtxt{
-          .s_flex{
-            display: block;
-            overflow: hidden;
-            padding: 0 60px;
-            figure{
-              width: 518px;
-              height: 796px;
-              float: left;
-              img{
-                width: 518px;
-                height: 796px;
-                border-radius: 259px;
+        .c__caseflex{
+          .s_caselist{
+            .s_caseitem{
+              .s_casetitle{
+               height: 84px;
               }
             }
-            .s_infodesc{
-              width: 50.3%;
-              float: left;
-              margin-left: 100px;
-            }
+          }
+        }
+        .c__imgtxt{
+          // .s_flex{
+          //   display: block;
+          //   overflow: hidden;
+          //   padding: 0 60px;
+          //   figure{
+          //     width: 518px;
+          //     height: 796px;
+          //     float: left;
+          //     img{
+          //       width: 518px;
+          //       height: 796px;
+          //       border-radius: 259px;
+          //     }
+          //   }
+          //   .s_infodesc{
+          //     width: 50.3%;
+          //     float: left;
+          //     margin-left: 100px;
+          //   }
+          // }
+          &.s_experience_poct{
+            width: 1000px;
+            margin: 0 auto;
           }
         }
       }

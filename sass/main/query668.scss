@@ -723,6 +723,7 @@
               font-size: 18px;
               line-height: 27px;
               font-weight: 600;
+              width: 100%;
             }
             p{
               font-weight: 300;
@@ -730,10 +731,14 @@
               line-height: 58px;
               margin-bottom: 59px;
               margin-top: 19px;
+              width: 100%;
             }
             .u__btncta{
               a{
+                width: 265px;
                 padding: 0 40px;
+                font-size: 28px;
+                white-space: nowrap;
               }
             }
           }

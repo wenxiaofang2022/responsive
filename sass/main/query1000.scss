@@ -414,6 +414,10 @@
               }
             }
           }
+          &.s_experience_poct{
+            width: 1000px;
+            margin: 0 auto;
+          }
         }
         .c__imglist{
           .s_imgitem{
@@ -434,6 +438,13 @@
           padding: 0 60px;
           padding-bottom: 128px;
           padding-top: 257px;
+          .s_caselist{
+            .s_caseitem{
+              .s_casetitle{
+                height: 126px;
+              }
+            }
+          }
         }
         .c__imgtxt{
           .s_flex{
@@ -455,6 +466,10 @@
               margin-top: 0px;
               padding: 0px;
             }
+          }
+          &.s_experience_poct{
+            width: 1000px;
+            margin: 0 auto;
           }
         }
         .c__logolist{

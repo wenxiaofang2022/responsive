@@ -984,7 +984,7 @@ main{
           margin: 0 auto;
           margin-bottom: 40px;
           position: relative;
-          background: rgba(132,132,132,0.18);
+          // background: rgba(132,132,132,0.18);
           padding: 0 30px;
           padding-top: 40px;
           figure{
@@ -1004,6 +1004,7 @@ main{
             text-align: center;
             font-size: 14px;
             line-height: 20px;
+            color: #fff;
           }
           p{
             font-weight: 300;
@@ -1012,6 +1013,7 @@ main{
             text-align: center;
             margin-top: 11px;
             margin-bottom: 44px;
+            color: #fff;
           }
           .u__btncta{
             a{
