@@ -634,4 +634,82 @@
       }
     }
   }
+  .c__optimise_modal{
+    .s_modalcontent{
+      width: 818px;
+      padding: 76px 48px 122px;
+      .s_title{
+        span{
+          font-size: 26px;
+          line-height: 30px;
+        }
+      }
+      .s_subtitle{
+        font-size: 62px;
+        line-height: 74px;
+        margin-top: 12px;
+      }
+      .s_imgbox{
+        display: flex;
+        justify-content: space-between;
+        .s_graffiti{
+          width: 206px;
+          margin-top: 58px;
+        }
+        .s_desc{
+          width: 463px;
+          font-size: 22px;
+          line-height: 30px;
+          margin-top: 49px;
+        }
+      }
+      .s_ullist{
+        display: flex;
+        justify-content: space-between;
+        .s_ul{
+          width: 334px;
+          .c_infolist{
+            h4{
+              font-size: 26px;
+              line-height: 30px;
+              padding-top: 32px;
+            }
+            p{
+              font-size: 22px;
+              line-height: 30px;
+            }
+            ul{
+              li{
+                font-size: 22px;
+                line-height: 30px;
+              }
+            }
+            &:nth-child(1){
+              h4{
+                padding-top: 67px;
+              }
+            }
+          }
+          .c_buybox{
+            margin-top: 84px;
+            .s_price{
+              font-size:60px;
+              line-height: 58px;
+            }
+            .u__btncta{
+              margin-top: 36px;
+              width: 374px;
+              height: 60px;
+              margin-left: -40px;
+              a{
+                height: 60px;
+                line-height: 60px;
+                font-size: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
