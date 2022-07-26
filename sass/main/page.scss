@@ -923,6 +923,7 @@ main{
         margin-top: 65px;
         position: relative;
         z-index: 1;
+        padding-bottom: 65px;
         .s_imgitem{
           width: 339px;
           height: 421px;
@@ -959,6 +960,12 @@ main{
             text-align: center;
             margin-top: 11px;
             margin-bottom: 44px;
+          }
+          .u__btncta{
+            a{
+              background: #F28077;
+              color: #DFD4CB;
+            }
           }
         }
       }

@@ -152,10 +152,12 @@
           padding: 0 60px;
           padding-top: 53px;
           .s_title{
-            width: 60%;
+            // width: 60%;
+            max-width: 792px;
           }
           .s_desc{
-            width: 80%;
+            max-width: 1064px;
+            // width: 80%;
             margin: 0 auto;
             &.s_service_desc{
               width: 50%;
@@ -164,7 +166,7 @@
           .s_shapes{
             &.s_experience{
               .u__shapelinear{
-                
+                right: 347px;
               }
             }
             &.s_experience_poct{

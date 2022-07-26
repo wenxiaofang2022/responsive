@@ -513,6 +513,7 @@
         .c__imglist{
           margin-top: 69px;
           padding: 0 40px;
+          padding-bottom: 65px;
           .s_imgitem{
             width: 819px;
             height: 609px;
@@ -529,6 +530,14 @@
               line-height: 74px;
               margin-top:33px;
               margin-bottom: 86px;
+            }
+            .u__btncta{
+              height: 61px;
+              a{
+                height: 61px;
+                line-height: 61px;
+                font-size: 30px;
+              }
             }
           }
         }

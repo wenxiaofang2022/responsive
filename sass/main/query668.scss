@@ -390,6 +390,14 @@
       .c__contents{
         .u__arrow{
           margin-top: 63px;
+          height: 40px;
+          &.v_red::before{
+            background: #C2644C;
+          }
+          &.v_red::after{
+            border-color: #C2644C;
+          }
+          
         }
         .c__subpageintro{
           .s_logo{
@@ -661,12 +669,19 @@
             h4{
               font-size: 18px;
               line-height: 27px;
+              font-weight: 600;
             }
             p{
               font-weight: 300;
               font-size: 50px;
               line-height: 58px;
               margin-bottom: 59px;
+              margin-top: 19px;
+            }
+            .u__btncta{
+              a{
+                padding: 0 40px;
+              }
             }
           }
         }
