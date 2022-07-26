@@ -277,6 +277,19 @@
   main{
     &.p__subpages{
       .c__contents{
+        .u__arrow{
+          margin-top: 73px;
+          height: 82px;
+          &.v_red::before{
+            background: #C2644C;
+          }
+          &.v_red::after{
+            border-color: #C2644C;
+            padding:20px;
+            left: -1px;
+            bottom: 6px;
+          }
+        }
         .c__subpageintro{
           padding: 0 40px;
           padding-top: 50px;
@@ -289,6 +302,9 @@
             margin-top: 62px;
             margin-bottom: 57px;
             width: 100%;
+            &.s_experience{
+              width: 100%;
+            }
             &.s_poct{
               margin-bottom: 65px;
             }
