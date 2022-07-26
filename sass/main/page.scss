@@ -629,6 +629,9 @@ main{
           text-align: center;
           margin-top: 40px;
           margin-bottom: 38px;
+          &.s_poct{
+            margin-top:36px;
+          }
         }
         .s_desc{
           font-size: 20px;
@@ -717,6 +720,10 @@ main{
           font-weight: 600;
           // height: 47px;
           text-align: center;
+          &.s_poct{
+            font-size: 26px;
+            line-height: 31px;
+          }
           span{
             border: 2px solid #363434;
             border-radius: 60px;
@@ -1063,12 +1070,21 @@ main{
             padding-top: 19px;
             color: #F28077;
             padding-bottom: 9px;
+            font-size:20px;
           }
           ul{
-            list-style: disc;
-            padding-left: 44px;
             li{
-
+              padding-left: 35px;
+              position: relative;
+              span{
+                width: 6px;
+                height: 6px;
+                background: #363434;
+                border-radius: 50%;
+                position: absolute;
+                left: 0px;
+                top: 11px;
+              }
             }
           }
         }

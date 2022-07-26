@@ -403,6 +403,10 @@
             margin: 0 auto;
             margin-top: 36px;
             margin-bottom: 32px;
+            &.s_poct{
+              margin-top: 29px;
+              margin-bottom: 41px;
+            }
           }
           .s_shapes{
             &.s_experience{
@@ -485,6 +489,10 @@
             line-height: 27px;
           }
           .s_subtitle{
+            &.s_poct{
+              font-size: 36px;
+              line-height: 43px;
+            }
             span{
               font-weight: 300;
               font-size: 50px;
@@ -714,6 +722,16 @@
             h4{
               font-size: 23px;
               line-height: 32px;
+            }
+            ul{
+              li{
+                padding-left: 45px;
+                span{
+                  width: 7px;
+                  height: 7px;
+                  top: 14px;
+                }
+              }
             }
           }
         }

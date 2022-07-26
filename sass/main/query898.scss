@@ -289,6 +289,9 @@
             margin-top: 62px;
             margin-bottom: 57px;
             width: 100%;
+            &.s_poct{
+              margin-bottom: 65px;
+            }
           }
           .s_shapes{
             &.s_experience{
@@ -357,6 +360,10 @@
           .s_subtitle{
             font-size: 62px;
             line-height: 74px;
+            &.s_poct{
+              font-size:48px;
+              line-height: 75px;
+            }
           }
           .s_content{
             font-size: 22px;
@@ -589,7 +596,15 @@
               font-size: 33px;
               line-height: 40px;
               padding-top: 32px;
-              padding-bottom: 0px;
+              padding-bottom: 12px;
+            }
+            ul{
+              li{
+                padding-left: 54px;
+                span{
+                  top: 22px;
+                }
+              }
             }
           }
         }
