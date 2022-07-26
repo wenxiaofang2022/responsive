@@ -364,6 +364,11 @@
               font-size:48px;
               line-height: 75px;
             }
+            span{
+              font-size: 62px;
+              line-height: 74px;
+              padding: 0 40px 3px 40px;
+            }
           }
           .s_content{
             font-size: 22px;
@@ -565,6 +570,7 @@
           .s_caselist{
             display: flex;
             justify-content: space-between;
+            padding-top: 25px;
             .s_caseitem{
               width: 30%;
               .s_caseicon{

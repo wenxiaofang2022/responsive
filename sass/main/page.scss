@@ -718,7 +718,7 @@ main{
         .s_subtitle{
           font-weight: 300;
           font-size: 35px;
-          line-height: 42px;
+          // line-height: 42px;
           font-weight: 600;
           // height: 47px;
           text-align: center;
@@ -729,8 +729,10 @@ main{
           span{
             border: 2px solid #363434;
             border-radius: 60px;
-            padding:0 22px;
-            font-weight: 400;
+            padding:0 22px 3px 22px;
+            font-weight: 300;
+            font-size: 35px;
+            line-height: 42px;
           }
         }
         .s_bigtitle{
@@ -1012,6 +1014,7 @@ main{
           }
         }
         .s_caselist{
+          padding-top: 7px;
           .s_caseitem{
             padding-top: 56px;
             .s_caseicon{
@@ -1026,7 +1029,7 @@ main{
               font-size: 20px;
               line-height: 25px;
               text-align: center;
-              margin-top: 22px;
+              margin-top: 24px;
             }
             .s_casedesc{
               font-size: 14px;

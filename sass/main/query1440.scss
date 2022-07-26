@@ -181,6 +181,13 @@
                 right: 131px;
               }
             }
+            &.s_experience_detail{
+              .u__shapelinear{
+                &:nth-child(1){
+                  right:549px;
+                }
+              }
+            }
           }
           .s_content{
             width: 60%;
