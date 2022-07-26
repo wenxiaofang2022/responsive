@@ -922,6 +922,54 @@ main{
             }
           }
         }
+        &.s_baseline{
+          padding-bottom: 106px;
+          .s_shapes{
+            .u__shapelinear{
+              width: 1040px;
+              height: 413px;
+              left: 83px;
+              right: auto;
+              top: 257px;
+              z-index: -1;
+              opacity: 0.45;
+            }
+          }
+          .s_graffiti{
+            width: 300px;
+          }
+          .s_bigtitle{
+            font-family: 'Roobert Regular',sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 43px;
+            margin-bottom: 35px;
+          }
+          .s_bigtit{
+            span{
+              margin-left: 50%;
+              transform: translateX(-50%);
+            }
+          }
+          .s_desc{
+            font-size: 20px;
+            line-height: 25px;
+          }
+          .u__btncta{
+            width: 224px;
+            line-height: 56px;
+            height: 56px;
+            margin:0 auto;
+            margin-top: 45px;
+            a{
+              width: 100%;
+              height: 56px;
+              line-height: 56px;
+              white-space: nowrap;
+            }
+          }
+        }
       }
       .c__imglist{
         margin-top: 65px;
