@@ -1,0 +1,1732 @@
+main .c__contents .u__sect {
+  border-radius: 0 0 80px 80px;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0px;
+}
+
+main .c__contents .u__sect .u__content {
+  position: relative;
+  padding-top: 205px;
+  padding-bottom: 90px;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+main .c__contents .u__sect .u__content .u__shapelinear {
+  width: 668px;
+  height: 305px;
+  z-index: -1;
+  position: absolute;
+}
+
+main .c__contents .u__sect .u__content .s_title {
+  position: relative;
+  z-index: 1;
+  /* margin-left: 5%; */
+}
+
+main .c__contents .u__sect .u__content .s_title span {
+  border-radius: 80px;
+  border: 1.8px solid #363434;
+  /* font-weight: 300; */
+  font-family: 'Roobert Light';
+  font-size: 35px;
+  line-height: 42px;
+  padding: 0 30px;
+  display: inline-block;
+  /* min-width: 100px;
+  max-width: 90%; */
+}
+
+main .c__contents .u__sect .u__content .s_desc {
+  z-index: 2;
+  max-width: 244px;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-align: center;
+}
+
+main .c__contents .u__sect .u__content .s_desc p {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Roobert Medium';
+}
+
+main .c__contents .u__sect .u__content .s_detail {
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  /* padding: 0 18px; */
+  margin: 0 auto;
+  margin-top: 48px;
+  text-align: center;
+}
+
+main .c__contents .u__sect .u__content .s_detail a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+main .c__contents .u__sect .u__content .s_programbox {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  top: 336px;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  max-width: 731px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 214px;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div {
+  width: 55.59%;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-family: "Roobert Light";
+  font-family: "Roobert Regular";
+  font-size: 28px;
+  line-height: 34px;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div figure img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div:nth-child(1) {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 0;
+  padding-bottom: 83.3%;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div:nth-child(1) h3 {
+  top: 18.5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div:nth-child(2) h3 {
+  top: 55.6%;
+  left: -4%;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div:not(:first-child) {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div:nth-child(3) {
+  left: auto;
+  right: 10px;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram div:nth-child(3) h3 {
+  top: 45.1%;
+  left: 32.5%;
+}
+
+main .c__contents .u__sect .u__content .s_programmesdiagram .s_union {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-46%, -32%);
+  -ms-transform: translate(-46%, -32%);
+  transform: translate(-46%, -32%);
+  width: 13.8%;
+  height: 24.1%;
+  width: 44px;
+  height: 68px;
+  -webkit-transform: translate(-40%, -20%);
+  -ms-transform: translate(-40%, -20%);
+  transform: translate(-40%, -20%);
+}
+
+main .c__contents .u__sect .u__content .s_flexitems {
+  padding-bottom: 54px;
+}
+
+main .c__contents .u__sect .u__content .s_flexitems .s_items {
+  display: block;
+}
+
+main .c__contents .u__sect .u__content .s_flexitems .s_items .s_item {
+  font-size: 14px;
+  line-height: 20px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .c__contents .u__sect .u__content .s_flexitems .s_items .s_item:not(:first-child) {
+  margin-top: 27px;
+}
+
+main .c__contents .u__sect .u__content .s_flexitems .s_items .s_item:not(:last-child):after {
+  content: "";
+  display: block;
+  background: url(../img/arrow_approachdown.svg) top center;
+  height: 49px;
+  width: 19px;
+  background-size: 19px 49px;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+
+main .c__contents .u__sect .u__content .s_flexitems .s_items .s_item .s_index {
+  font-size: 70px;
+  line-height: 84px;
+}
+
+main .c__contents .u__sect .u__content .s_flexitems .s_items .s_item .s_feature {
+  font-size: 30px;
+  line-height: 36px;
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .c__contents .u__sect .u__content .s_flexitems .s_items .s_item .s_feature h3 {
+  width: 100%;
+}
+
+main .c__contents .u__sect .u__content .s_flexitems .s_arrows {
+  display: none;
+}
+
+main .c__contents .u__sect .u__content .s_imglist {
+  position: absolute;
+  top: 378px;
+  width: 486px;
+  height: 211px;
+  margin-left: calc(50% - 243px);
+}
+
+main .c__contents .u__sect .u__content .s_imglist figure {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+}
+
+main .c__contents .u__sect .u__content .s_imglist figure:nth-child(1) {
+  left: 0;
+  bottom: 0;
+}
+
+main .c__contents .u__sect .u__content .s_imglist figure:nth-child(2) {
+  left: 85px;
+  top: 0;
+}
+
+main .c__contents .u__sect .u__content .s_imglist figure:nth-child(3) {
+  left: 177px;
+  bottom: 0;
+}
+
+main .c__contents .u__sect .u__content .s_imglist figure:nth-child(4) {
+  left: 263px;
+  top: 0;
+}
+
+main .c__contents .u__sect .u__content .s_imglist figure:nth-child(5) {
+  right: 0;
+  bottom: 0;
+}
+
+main .c__contents .u__sect .u__content .s_image {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 570px;
+}
+
+main .c__contents .u__sect .u__content .s_copy {
+  margin-top: 210px;
+  position: relative;
+  z-index: 1;
+  padding: 0 25px;
+}
+
+main .c__contents .u__sect .u__content .s_copy .s_detail {
+  margin-top: 0;
+  width: 100%;
+}
+
+main .c__contents .u__sect .u__content .s_copy .s_logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 18px;
+  margin-top: 40px;
+}
+
+main .c__contents .u__sect .u__content .s_copy .s_logo figure {
+  height: 44px;
+}
+
+
+main .c__contents .c__futurehealth {
+  background: #ddd5cc;
+  z-index: 10;
+}
+
+main .c__contents .c__futurehealth .u__content {
+  padding-top: 32px;
+  padding-bottom: 131px;
+}
+
+main .c__contents .c__futurehealth .u__content .u__img {
+  width: 100%;
+  /* max-width: 1151px; */
+  max-width: 1010px;
+  /* min-width: 420px; */
+  /* width: 338px; */
+  width: calc(100% - 36px);
+  border-radius: 300px;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 50%;
+  margin-left: calc(-50% + 18px);
+}
+
+main .c__contents .c__futurehealth .u__content .u__shapelinear.v_shape {
+  /* top: 126px; */
+  /* top: 50px; */
+  /* top: 86px; */
+  top: 114px;
+  left: -36px;
+}
+
+main .c__contents .c__specialists {
+  background: #c2b7ae;
+  margin-top: -131px;
+  z-index: 9;
+}
+
+main .c__contents .c__specialists .u__content .s_programmesdiagram {
+  margin-top: 34px;
+}
+
+main .c__contents .c__specialists .u__content .u__shapelinear.v_shape {
+  top: 250px;
+  left: auto;
+  right: -10%;
+  width: 975px;
+  height: 446px;
+  border-radius: 223px;
+}
+
+main .c__contents .c__advancing {
+  background: #ddd5cc;
+  margin-top: -128px;
+  z-index: 8;
+}
+
+main .c__contents .c__advancing .u__content .s_title {
+  margin-right: 5%;
+}
+
+/* main .c__contents .c__advancing .u__content .s_title span {
+  padding: 0 20px;
+  max-width: 100%;
+} */
+main .c__contents .c__advancing .u__content .s_desc {
+  position: relative;
+  padding-top: 56px;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+main .c__contents .c__advancing .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+  width: 839px;
+  height: 333px;
+  top: 350px;
+  border-radius: 166px;
+  left: auto;
+  right: -20%;
+}
+
+main .c__contents .c__advancing .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+  width: 839px;
+  height: 333px;
+  border-radius: 166px;
+  left: auto;
+  right: 50%;
+  top: 650px;
+}
+
+main .c__contents .c__healthcares {
+  background: #ddd5cc;
+  z-index: 8;
+}
+
+main .c__contents .c__healthcares .u__content {
+  padding-top: 277px;
+  padding-bottom: 765px;
+}
+
+main .c__contents .c__healthcares .u__content .s_title {
+  margin-top: 0;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg {
+  position: absolute;
+  z-index: 1;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg figure {
+  width: 280px;
+  height: 153px;
+  position: relative;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg figure a {
+  width: 280px;
+  height: 140px;
+  border-radius: 70px;
+  overflow: hidden;
+  display: block;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg figure span {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  left: 50%;
+  bottom: 0;
+  background: #ee907b;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(4) {
+  right: 20%;
+  top: 0;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
+  left: auto;
+  right: -16%;
+  top: 110px;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
+  left: -20%;
+  top: 628px;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
+  left: auto;
+  right: 14px;
+  top: 628px;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure {
+  width: 140px;
+  height: 293px;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure a {
+  width: 140px;
+  height: 280px;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
+  left: -20%;
+  top: 793px;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 895px;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure {
+  width: 140px;
+  height: 293px;
+}
+
+main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure a {
+  width: 140px;
+  height: 280px;
+}
+
+main .c__contents .c__healthcares .u__content .s_detail {
+  width: 100%;
+  padding: 0 42px;
+  margin-top: 40px;
+}
+
+main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+  width: 1006px;
+  height: 399px;
+  border-radius: 200px;
+  left: auto;
+  top: 28px;
+  right: 8px;
+}
+
+main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+  display: none;
+}
+
+main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(3) {
+  width: 1052px;
+  height: 418px;
+  border-radius: 209px;
+  top: 840px;
+  left: auto;
+  right: -20%;
+}
+
+main .c__contents .c__approach {
+  background: #c2b7ae;
+  margin-top: -128px;
+  z-index: 7;
+}
+
+main .c__contents .c__approach .u__content .u__bg {
+  width: 776px;
+  height: 776px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  opacity: 0.45;
+}
+
+main .c__contents .c__approach .u__content .u__bg img {
+  width: 50%;
+  float: left;
+}
+
+main .c__contents .c__approach .u__content .s_title {
+  margin-left: 0;
+}
+
+main .c__contents .c__approach .u__content .s_title span {
+  margin: 0 auto;
+}
+
+main .c__contents .c__approach .u__content .s_desc {
+  text-align: center;
+  width: 100%;
+  padding: 0 39px;
+  margin: 0 auto;
+  margin-top: 34px;
+  margin-bottom: 79px;
+}
+
+main .c__contents .c__approach .u__content .u__shapelinear.v_shape {
+  height: 816px;
+  left: 0;
+  top: 550px;
+  border-radius: 408px;
+}
+
+main .c__contents .c__services {
+  background: #ddd5cc;
+  margin-top: -128px;
+  z-index: 6;
+}
+
+main .c__contents .c__services .u__content {
+  padding-bottom: 102px;
+}
+
+main .c__contents .c__services .u__content .s_title {
+  margin-left: 0;
+}
+
+main .c__contents .c__services .u__content .s_title span {
+  margin: 0 auto;
+}
+
+main .c__contents .c__services .u__content .s_desc {
+  width: 100%;
+  padding: 0 18px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 44px;
+  margin-bottom: 305px;
+}
+
+main .c__contents .c__services .u__content .s_detail {
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+main .c__contents .c__services .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+  width: 832px;
+  height: 330px;
+  border-radius: 165px;
+  top: 390px;
+  left: auto;
+  right: 0;
+}
+
+main .c__contents .c__services .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+  display: none;
+}
+
+main .c__contents .c__visitus {
+  background: #c2b7ae;
+  margin-top: -128px;
+  z-index: 5;
+  border-radius: 0;
+}
+
+main .c__contents .c__visitus .u__content .s_title {
+  margin-left: 0;
+}
+
+main .c__contents .c__visitus .u__content .s_title span {
+  margin: 0 auto;
+}
+
+main .c__contents .c__visitus .u__content .s_imgtxt {
+  padding: 0 18px;
+  margin-top: 42px;
+  position: relative;
+}
+
+main .c__contents .c__visitus .u__content .s_imgtxt figure {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+main .c__contents .c__visitus .u__content .s_imgtxt figure img {
+  width: 100%;
+  height: 100%;
+}
+
+main .c__contents .c__visitus .u__content .s_imgtxt .s_info {
+  width: auto;
+}
+
+main .c__contents .c__visitus .u__content .s_imgtxt .s_info .s_infotit {
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+}
+
+main .c__contents .c__visitus .u__content .s_imgtxt .s_info .s_detail {
+  width: 100%;
+  padding: 0 36px;
+  margin-top: 16px;
+  margin-bottom: 257px;
+  text-align: center;
+}
+
+main .c__contents .c__visitus .u__content .s_imgtxt .s_info .s_form {
+  margin-top: 38px;
+}
+
+@media only screen and (min-width: 668px) {
+  main .c__contents .u__sect {
+    border-radius: 0 0 140px 140px;
+  }
+
+  main .c__contents .u__sect .u__content .s_desc {
+    /* margin: 0 auto; */
+    margin-top: 41px;
+    max-width: 403px;
+  }
+
+  main .c__contents .u__sect .u__content .s_desc p {
+    font-size: 23px;
+    line-height: 32px;
+  }
+
+  main .c__contents .u__sect .u__content .s_detail {
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 547px;
+    /* width: 82%; */
+  }
+
+  main .c__contents .u__sect .u__content .s_title span {
+    /* max-width: 100%; */
+  }
+
+  main .c__contents .c__futurehealth .u__content .u__img {
+    /* width: 788px; */
+  }
+
+  main .c__contents .c__futurehealth .u__content .u__arrow {
+    margin-top: 63px;
+  }
+
+  main .c__contents .c__futurehealth .u__content .s_detail {
+    margin-top: 55px;
+  }
+
+  main .c__contents .c__futurehealth .u__content .u__shapelinear.v_shape {
+    top: 201px;
+    width: 1180px;
+    height: 468px;
+    border-radius: 234px;
+    left: -61px;
+  }
+
+  main .c__contents .c__specialists .u__content .s_title {
+    margin-left: 10%;
+  }
+
+  main .c__contents .c__specialists .u__content .s_programbox {
+    top: 328px;
+  }
+
+  main .c__contents .c__specialists .u__content .s_detail {
+    width: 100%;
+  }
+
+  main .c__contents .c__specialists .u__content .s_programmesdiagram {
+    margin-top: 40px;
+  }
+
+  main .c__contents .c__specialists .u__content .s_programmesdiagram div h3 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+
+  main .c__contents .c__specialists .u__content .u__shapelinear.v_shape {
+    top: 230px;
+    height: 830px;
+    width: 1813px;
+    border-radius: 415px;
+    left: auto;
+    right: -20%;
+  }
+
+  main .c__contents .c__advancing .u__content {
+    padding-bottom: 84px;
+  }
+
+  main .c__contents .c__advancing .u__content .s_title {
+    margin-left: 5%;
+  }
+
+  main .c__contents .c__advancing .u__content .s_desc {
+    width: 80%;
+  }
+
+  main .c__contents .c__advancing .u__content .s_image {
+    width: 100%;
+    top: 530px;
+  }
+
+  main .c__contents .c__advancing .u__content .s_copy {
+    display: block;
+    margin-top: 323px;
+  }
+
+  main .c__contents .c__advancing .u__content .s_copy .s_detail {
+    width: 100%;
+  }
+
+  main .c__contents .c__advancing .u__content .s_copy .s_logo {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+
+  main .c__contents .c__advancing .u__content .s_copy .s_logo figure {
+    width: 30%;
+  }
+
+  main .c__contents .c__advancing .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+    width: 1892px;
+    height: 750px;
+    top: 325px;
+    border-radius: 375px;
+    left: auto;
+    right: -30%;
+  }
+
+  main .c__contents .c__advancing .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+    display: none;
+  }
+
+  main .c__contents .c__healthcares .u__content {
+    padding-bottom: 72px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_detail {
+    margin-left: 0;
+    margin-top: 53px;
+    width: 100%;
+    padding: 0 10%;
+    padding-bottom: 807px;
+    position: relative;
+    z-index: 1;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg {
+    top: 120px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg figure {
+    width: 350px;
+    height: 192px;
+    position: relative;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg figure a {
+    width: 350px;
+    height: 175px;
+    border-radius: 88px;
+    overflow: hidden;
+    display: block;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg figure span {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 0;
+    background: #ee907b;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(4) {
+    right: 10%;
+    top: 63px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
+    right: -15%;
+    top: 214px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
+    left: -5%;
+    top: 699px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
+    left: auto;
+    right: 5%;
+    top: 692px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure {
+    width: 175px;
+    height: 367px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure a {
+    width: 175px;
+    height: 350px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
+    left: 10%;
+    top: 898px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
+    left: 66%;
+    top: 1003px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure {
+    width: 175px;
+    height: 367px;
+  }
+
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure a {
+    width: 175px;
+    height: 350px;
+  }
+
+  main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+    width: 1105px;
+    height: 438px;
+    border-radius: 219px;
+    left: auto;
+    right: 14%;
+    top: 0;
+  }
+
+  main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+    width: 1105px;
+    height: 438px;
+    border-radius: 219px;
+    top: 306px;
+    right: auto;
+    left: 60%;
+    display: block;
+  }
+
+  main .c__contents .c__healthcares .u__content .u__shapelinear.v_shape:nth-of-type(3) {
+    width: 1105px;
+    height: 438px;
+    border-radius: 219px;
+    top: 942px;
+    left: -66%;
+  }
+
+  main .c__contents .c__approach .u__content .s_desc {
+    width: 100%;
+    padding: 0 28px;
+    margin-top: 50px;
+    margin-bottom: 69px;
+  }
+
+  main .c__contents .c__approach .u__content .u__bg {
+    top: 50%;
+    width: 920px;
+    height: 920px;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems {
+    padding-bottom: 94px;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems .s_items {
+    display: block;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems .s_items .s_item {
+    font-size: 18px;
+    line-height: 27px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems .s_items .s_item:not(:first-child) {
+    margin-top: 27px;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems .s_items .s_item:not(:last-child):after {
+    content: "";
+    display: block;
+    background: url(../img/arrow_approachdown.svg) top center;
+    height: 49px;
+    width: 19px;
+    background-size: 19px 49px;
+    margin: 0 auto;
+    margin-top: 44px;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems .s_items .s_item .s_index {
+    font-size: 70px;
+    line-height: 84px;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems .s_items .s_item .s_feature {
+    font-size: 35px;
+    line-height: 42px;
+    height: 83px;
+    text-align: center;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems .s_items .s_item .s_feature h3 {
+    width: 100%;
+  }
+
+  main .c__contents .c__approach .u__content .s_flexitems .s_arrows {
+    display: none;
+  }
+
+  main .c__contents .c__approach .u__content .u__shapelinear.v_shape {
+    width: 2304px;
+    height: 915px;
+    left: auto;
+    right: -36%;
+    top: 469px;
+    border-radius: 458px;
+  }
+
+  main .c__contents .c__services .u__content {
+    padding-bottom: 134px;
+  }
+
+  main .c__contents .c__services .u__content .s_imglist {
+    margin-left: calc(50% - 415px);
+    width: 830px;
+    height: 362px;
+    top: 410px;
+  }
+
+  main .c__contents .c__services .u__content .s_imglist figure {
+    width: 226px;
+    height: 226px;
+  }
+
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(1) {
+    left: 0;
+    bottom: 0;
+  }
+
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(2) {
+    left: 146px;
+    top: 0;
+  }
+
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(3) {
+    left: 302px;
+    bottom: 0;
+  }
+
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(4) {
+    left: 449px;
+    top: 0;
+  }
+
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(5) {
+    right: 0;
+    bottom: 0;
+  }
+
+  main .c__contents .c__services .u__content .s_desc {
+    width: 100%;
+    padding: 0 28px;
+    margin-top: 50px;
+    margin-bottom: 520px;
+  }
+
+  main .c__contents .c__services .u__content .s_detail {
+    width: 100%;
+    padding: 0 28px;
+    padding-bottom: 94px;
+  }
+
+  main .c__contents .c__services .u__content .u__shapelinear.v_shape:nth-of-type(1) {
+    height: 482px;
+    width: 1213px;
+    border-radius: 241px;
+    top: 440px;
+    left: auto;
+    right: 10%;
+  }
+
+  main .c__contents .c__services .u__content .u__shapelinear.v_shape:nth-of-type(2) {
+    display: none;
+  }
+
+  main .c__contents .c__visitus {
+    border-radius: 0;
+  }
+
+  main .c__contents .c__visitus .u__content {
+    padding-top: 235px;
+    padding-bottom: 103px;
+  }
+
+  main .c__contents .c__visitus .u__content .s_imgtxt {
+    margin-top: 54px;
+  }
+
+  main .c__contents .c__visitus .u__content .s_imgtxt .s_info .s_infotit {
+    text-align: center;
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  main .c__contents .c__visitus .u__content .s_imgtxt .s_info .s_detail {
+    padding: 0 126px;
+    margin-bottom: 300px;
+  }
+
+  main .c__contents .c__visitus .u__content .s_imgtxt figure {
+    width: 274px;
+    height: 274px;
+    top: 124px;
+  }
+}
+
+@media screen and (min-width: 898px) and (max-width: 999px) {
+  main .c__contents .c__futurehealth .u__content .u__img {
+      width: 943px;
+  }
+  main .c__contents .c__futurehealth .u__shapelinear.v_shape {
+      top: 250px;
+      width: 1151px;
+  }
+  main .c__contents .c__specialists .u__content .s_title {
+      margin-left: 10%;
+  }
+  main .c__contents .c__specialists .u__content .s_detail {
+      width: 70%;
+  }
+  main .c__contents .c__specialists .u__content .s_programbox {
+      top: 220px;
+  }
+  main .c__contents .c__specialists .u__content .s_programmesdiagram {
+      margin-top: 40px;
+  }
+  main .c__contents .c__specialists .u__shapelinear.v_shape {
+      top: 166px;
+      height: 804px;
+      border-radius: 400px;
+  }
+  main .c__contents .c__advancing .u__content {
+      padding-bottom: 84px;
+  }
+  main .c__contents .c__advancing .u__content .s_desc {
+      width: 80%;
+  }
+  main .c__contents .c__advancing .u__content .s_image {
+      width: 50%;
+  }
+  main .c__contents .c__advancing .u__content .s_copy .s_detail {
+      width: 60%;
+  }
+  main .c__contents .c__advancing .u__content .s_copy .s_logo {
+      display: block;
+      width: 20%;
+  }
+  main .c__contents .c__advancing .u__content .s_copy .s_logo figure {
+      width: 80%;
+  }
+  main .c__contents .c__advancing .u__content .s_copy .s_logo figure:nth-child(2) {
+      margin-top: 30px;
+  }
+  main .c__contents .c__advancing .u__shapelinear.v_shape:nth-of-type(1) {
+      height: 640px;
+      top: 410px;
+      border-radius: 320px;
+  }
+  main .c__contents .c__advancing .u__shapelinear.v_shape:nth-of-type(2) {
+      height: 640px;
+      border-radius: 320px;
+      width: 100%;
+      left: -50%;
+      top: 623px;
+      background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+      background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+  }
+  main .c__contents .c__healthcares .u__content .s_detail {
+      margin-left: 0;
+      margin-top: 0;
+      width: 74%;
+      padding: 0 5%;
+      padding-bottom: 918px;
+      position: relative;
+      z-index: 1;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg {
+      top: 120px;
+      right: 0;
+      position: absolute;
+      z-index: 1;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg figure {
+      width: 436px;
+      height: 231px;
+      position: relative;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg figure a {
+      width: 427px;
+      height: 214px;
+      border-radius: 107px;
+      overflow: hidden;
+      display: block;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg figure span {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      left: 50%;
+      bottom: 0;
+      background: #ee907b;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      color: #fff;
+      font-size: 34px;
+      text-align: center;
+      line-height: 34px;
+      cursor: pointer;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(4) {
+      right: 10%;
+      top: 92px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
+      right: -18%;
+      top: 266px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
+      left: -15%;
+      top: 683px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
+      left: 28%;
+      top: 653px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure {
+      width: 214px;
+      height: 443px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure a {
+      width: 214px;
+      height: 426px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
+      left: 18%;
+      top: 1138px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
+      right: 5%;
+      top: 1006px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure {
+      width: 214px;
+      height: 443px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure a {
+      width: 214px;
+      height: 426px;
+  }
+  main .c__contents .c__healthcares .u__content .s_title {
+      margin-top: 136px;
+  }
+  main .c__contents .c__healthcares .u__content .s_title span:nth-child(2) {
+      left: 10px;
+  }
+  main .c__contents .c__healthcares .u__content .s_title span:nth-child(3) {
+      left: -50px;
+      top: 100px;
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(1) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      left: -50%;
+      top: 0;
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(2) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      top: 220px;
+      right: -82%;
+      left: auto;
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(3) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      top: 1030px;
+      left: -66%;
+  }
+  main .c__contents .c__approach .u__content .s_desc {
+      width: 70%;
+  }
+  main .c__contents .c__approach .u__content .u__bg {
+      top: 54%;
+  }
+  main .c__contents .c__approach .u__shapelinear.v_shape {
+      width: 2249px;
+      height: 816px;
+      left: auto;
+      right: 10%;
+      top: 550px;
+      border-radius: 408px;
+  }
+  main .c__contents .c__services .u__content .s_imglist {
+      margin-left: calc(50% - 415px);
+  }
+  main .c__contents .c__services .u__content .s_desc {
+      width: 70%;
+  }
+  main .c__contents .c__services .u__content .s_detail {
+      width: 70%;
+  }
+  main .c__contents .c__services .u__shapelinear.v_shape:nth-of-type(1) {
+      width: 1230px;
+      height: 536px;
+      border-radius: 268px;
+      top: 194px;
+      left: -78%;
+      background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+      background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+  }
+  main .c__contents .c__services .u__shapelinear.v_shape:nth-of-type(2) {
+      display: none;
+  }
+  main .c__contents .c__visitus .u__content .s_imgtxt {
+      display: block;
+      position: relative;
+  }
+  main .c__contents .c__visitus .u__content .s_imgtxt .s_info {
+      width: 60%;
+  }
+  main .c__contents .c__visitus .u__content .s_imgtxt .s_info .s_detail {
+      margin-bottom: 10px;
+  }
+  main .c__contents .c__visitus .u__content .s_imgtxt figure {
+      width: 309px;
+      height: 309px;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 0;
+      left: auto;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1439px) {
+  main .c__contents .c__futurehealth .u__content .u__img {
+      width: 943px;
+  }
+  main .c__contents .c__futurehealth .u__shapelinear.v_shape {
+      top: 250px;
+      width: 1151px;
+  }
+  main .c__contents .c__specialists .u__content .s_title {
+      margin-left: 10%;
+  }
+  main .c__contents .c__specialists .u__content .s_detail {
+      width: 70%;
+  }
+  main .c__contents .c__specialists .u__content .s_programbox {
+      top: 220px;
+  }
+  main .c__contents .c__specialists .u__content .s_programmesdiagram {
+      margin-top: 40px;
+  }
+  main .c__contents .c__specialists .u__shapelinear.v_shape {
+      top: 166px;
+      height: 804px;
+      border-radius: 400px;
+  }
+  main .c__contents .c__advancing .u__content {
+      padding-bottom: 84px;
+  }
+  main .c__contents .c__advancing .u__content .s_desc {
+      width: 80%;
+  }
+  main .c__contents .c__advancing .u__content .s_image {
+      width: 50%;
+  }
+  main .c__contents .c__advancing .u__content .s_copy .s_detail {
+      width: 60%;
+  }
+  main .c__contents .c__advancing .u__content .s_copy .s_logo {
+      display: block;
+      width: 20%;
+  }
+  main .c__contents .c__advancing .u__content .s_copy .s_logo figure {
+      width: 80%;
+  }
+  main .c__contents .c__advancing .u__content .s_copy .s_logo figure:nth-child(2) {
+      margin-top: 30px;
+  }
+  main .c__contents .c__advancing .u__shapelinear.v_shape:nth-of-type(1) {
+      height: 640px;
+      top: 410px;
+      border-radius: 320px;
+  }
+  main .c__contents .c__advancing .u__shapelinear.v_shape:nth-of-type(2) {
+      height: 640px;
+      border-radius: 320px;
+      width: 100%;
+      left: -50%;
+      top: 623px;
+      background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+      background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+  }
+  main .c__contents .c__healthcares .u__content .s_detail {
+      margin-left: 0;
+      margin-top: 0;
+      width: 68%;
+      padding: 0 5%;
+      padding-bottom: 918px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg {
+      top: 120px;
+      right: 0;
+      position: absolute;
+      z-index: 1;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg figure {
+      width: 436px;
+      height: 231px;
+      position: relative;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg figure a {
+      width: 427px;
+      height: 214px;
+      border-radius: 107px;
+      overflow: hidden;
+      display: block;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg figure span {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      left: 50%;
+      bottom: 0;
+      background: #ee907b;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      color: #fff;
+      font-size: 34px;
+      text-align: center;
+      line-height: 34px;
+      cursor: pointer;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(4) {
+      right: 20%;
+      top: 92px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(5) {
+      right: -11%;
+      top: 266px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(6) {
+      left: 0;
+      top: 683px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) {
+      left: 38%;
+      top: 653px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure {
+      width: 214px;
+      height: 443px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(7) figure a {
+      width: 214px;
+      height: 426px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(8) {
+      left: 28%;
+      top: 1138px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) {
+      right: 0;
+      top: 1006px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure {
+      width: 214px;
+      height: 443px;
+  }
+  main .c__contents .c__healthcares .u__content .s_absimg:nth-of-type(9) figure a {
+      width: 214px;
+      height: 426px;
+  }
+  main .c__contents .c__healthcares .u__content .s_title {
+      margin-top: 136px;
+  }
+  main .c__contents .c__healthcares .u__content .s_title span:nth-child(2) {
+      left: 10px;
+  }
+  main .c__contents .c__healthcares .u__content .s_title span:nth-child(3) {
+      left: -50px;
+      top: 100px;
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(1) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      left: -50%;
+      top: 0;
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(2) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      top: 220px;
+      right: -50%;
+      left: auto;
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(3) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      top: 1030px;
+      left: -20%;
+  }
+  main .c__contents .c__approach .u__content .s_desc {
+      width: 70%;
+  }
+  main .c__contents .c__approach .u__content .u__bg {
+      top: 54%;
+  }
+  main .c__contents .c__approach .u__shapelinear.v_shape {
+      width: 2249px;
+      height: 816px;
+      left: auto;
+      right: 10%;
+      top: 550px;
+      border-radius: 408px;
+  }
+  main .c__contents .c__services .u__content .s_imglist {
+      width: 1220px;
+      height: 500px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+      margin-left: calc(50% - 610px);
+  }
+  main .c__contents .c__services .u__content .s_imglist figure {
+      width: 322px;
+      height: 322px;
+      border-radius: 50%;
+      overflow: hidden;
+      position: absolute;
+  }
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(1) {
+      left: 0;
+      bottom: 0;
+  }
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(2) {
+      left: 233px;
+      top: 0;
+  }
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(3) {
+      left: 451px;
+      bottom: 0;
+  }
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(4) {
+      left: 675px;
+      top: 0;
+  }
+  main .c__contents .c__services .u__content .s_imglist figure:nth-child(5) {
+      right: 0;
+      bottom: 0;
+  }
+  main .c__contents .c__services .u__content .s_detail {
+      width: 60%;
+  }
+  main .c__contents .c__services .u__shapelinear.v_shape:nth-of-type(1) {
+      height: 536px;
+      border-radius: 268px;
+      top: 456px;
+      left: -40%;
+      background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+      background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+  }
+  main .c__contents .c__services .u__shapelinear.v_shape:nth-of-type(2) {
+      height: 536px;
+      border-radius: 268px;
+      left: -5%;
+      top: 822px;
+  }
+  main .c__contents .c__visitus .u__content .s_imgtxt {
+      display: block;
+      position: relative;
+  }
+  main .c__contents .c__visitus .u__content .s_imgtxt .s_info {
+      width: 70%;
+  }
+  main .c__contents .c__visitus .u__content .s_imgtxt figure {
+      width: 309px;
+      height: 309px;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 0;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  main .c__contents .c__futurehealth .u__shapelinear.v_shape {
+      top: 340px;
+      width: 1151px;
+  }
+  main .c__contents .c__specialists .u__content .s_programbox {
+      top: 220px;
+  }
+  main .c__contents .c__specialists .u__content .s_programmesdiagram {
+      margin-top: 40px;
+  }
+  main .c__contents .c__specialists .u__shapelinear.v_shape {
+      top: 166px;
+      height: 804px;
+      border-radius: 400px;
+  }
+  main .c__contents .c__advancing .u__content {
+      padding-bottom: 84px;
+  }
+  main .c__contents .c__advancing .u__shapelinear.v_shape:nth-of-type(1) {
+      height: 640px;
+      top: 410px;
+      border-radius: 320px;
+  }
+  main .c__contents .c__advancing .u__shapelinear.v_shape:nth-of-type(2) {
+      height: 640px;
+      border-radius: 320px;
+      width: 60%;
+      left: -10%;
+      top: 623px;
+      background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+      background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(1) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      left: 0;
+      top: 0;
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(2) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      top: 251px;
+      right: -20%;
+      left: auto;
+  }
+  main .c__contents .c__healthcares .u__shapelinear.v_shape:nth-of-type(3) {
+      width: 1105px;
+      height: 438px;
+      border-radius: 219px;
+      top: 853px;
+      left: -20%;
+  }
+  main .c__contents .c__approach .u__shapelinear.v_shape {
+      height: 816px;
+      left: 0;
+      top: 550px;
+      border-radius: 408px;
+  }
+  main .c__contents .c__services .s_imglist {
+      width: 1220px;
+      height: 500px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+      margin-left: calc(50% - 610px);
+  }
+  main .c__contents .c__services .s_imglist figure {
+      width: 322px;
+      height: 322px;
+      border-radius: 50%;
+      overflow: hidden;
+      position: absolute;
+  }
+  main .c__contents .c__services .s_imglist figure:nth-child(1) {
+      left: 0;
+      bottom: 0;
+  }
+  main .c__contents .c__services .s_imglist figure:nth-child(2) {
+      left: 233px;
+      top: 0;
+  }
+  main .c__contents .c__services .s_imglist figure:nth-child(3) {
+      left: 451px;
+      bottom: 0;
+  }
+  main .c__contents .c__services .s_imglist figure:nth-child(4) {
+      left: 675px;
+      top: 0;
+  }
+  main .c__contents .c__services .s_imglist figure:nth-child(5) {
+      right: 0;
+      bottom: 0;
+  }
+  main .c__contents .c__services .u__shapelinear.v_shape:nth-of-type(1) {
+      height: 536px;
+      border-radius: 268px;
+      top: 456px;
+      left: -40%;
+      background: -o-linear-gradient(42deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+      background: linear-gradient(48deg, rgba(0, 0, 0, 0) 10%, rgba(221, 213, 204, 0) 99%, #ca6952 100%);
+  }
+  main .c__contents .c__services .u__shapelinear.v_shape:nth-of-type(2) {
+      height: 536px;
+      border-radius: 268px;
+      left: -5%;
+      top: 822px;
+  }
+}

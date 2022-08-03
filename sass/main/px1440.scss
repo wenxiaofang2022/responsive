@@ -1,0 +1,221 @@
+@media only screen and (min-width: 1440px){
+  main{
+    .c__contents{
+      .u__sect{
+        padding: 40px 60px 130px;
+        &.c__futurehealth{
+          .u__content{
+            .u__shapelinear{
+              width: 1155px;
+              height: 458px;
+              left: 42px;
+              top: 364px;
+            }
+            .s_titdesc{
+              .s_centerbox{
+                .s_desc{
+                  margin-top: 128px;
+                }
+              }
+            }
+          }
+        }
+        &.c__specialists{
+          .u__content{
+            .u__shapelinear{
+              width: 2026px;
+              height: 804px;
+              right: -60px;
+              top: 167px;
+            }
+            .s_detail{
+              margin-top: 109px;
+            }
+          }
+        }
+        &.c__advancing{
+          .u__content{
+            .u__shapelinear{
+              &:nth-child(1){
+                top: 338px;
+                right: -206px;
+              }
+              &:nth-child(2){
+                width: 1612px;
+                height: 640px;
+                right: calc(100vw - 808px);
+                top: 693px;
+                &:before{
+                  border-radius: 320px;
+                }
+              }
+              &:nth-child(3){
+                left: auto;
+                right: 426px;
+                top: 1416px;
+                opacity: 1;
+              }
+              &:nth-child(4){
+                width: 1105px;
+                height: 438px;
+                top: 1667px;
+                left: 706px;
+                opacity: 1;
+              }
+              &:nth-child(5){
+                width: 1105px;
+                height: 438px;
+                left: auto;
+                right: 651px;
+                top: 2270px;
+                opacity: 1;
+              }
+            }
+            .s_absimg{
+              width: 427px;
+              height: 214px;
+              border-radius: 107px;
+              &.v_vertical{
+                width: 214px;
+                height: 427px;
+              }
+              &:nth-child(6){
+                top: 1506px;
+                left: auto;
+                right:283px;
+              }
+              &:nth-child(7){
+                top: 1680px;
+                left: auto;
+                right:0px;
+              }
+              &:nth-child(8){
+                top: 1942px;
+                left:0px;
+              }
+              &:nth-child(9){
+                top: 1918px;
+                left:376px;
+              }
+              &:nth-child(10){
+                top: 2401px;
+                left: 271px;
+              }
+              &:nth-child(11){
+                top: 2268px;
+                left: auto;
+                right: 240px;
+              }
+            }
+            .s_image{
+              width:810px;
+              left: auto;
+              right: 0px;
+              top: 632px;
+            }
+            .s_copy{
+              margin-top: 347px;
+            }
+            .u__arrow{
+              margin-top: 171px;
+            }
+            .s_healthcaresbox{
+              margin-top: 283px;
+              .s_detail{
+                max-width: 530px;
+                margin-top: 187px;
+                margin-left: 708px;
+                p{
+                  font-size: 22px;
+                  line-height: 30px;
+                }
+              }
+              .u__arrow{
+                margin-top: 585px;
+              }
+            }
+          }
+        }
+        &.c__approach{
+          .u__content{
+            .u__bg{
+              top: 278px;
+            }
+            .u__shapelinear{
+              width: 2056px;
+              height: 816px;
+              top: 403px;
+              left: auto;
+              right:-232px;
+              &:before{
+                border-radius: 408px;
+              }
+            }
+            .u__arrow{
+              margin-top: 270px;
+            }
+          }
+        }
+        &.c__services{
+          .u__content{
+            .u__shapelinear{
+              &:nth-child(1){
+                width: 1348px;
+                height: 535px;
+                left: auto;
+                right:544px;
+                top: 446px;
+                opacity: 1;
+              }
+              &:nth-child(2){
+                display: block;
+                width: 1201px;
+                height: 477px;
+                opacity: 1;
+                top: 748px;
+                left: 0px;
+              }
+            }
+          }
+        }
+        &.c__visitus{
+          padding-bottom: 135px;
+          .u__content{
+            .s_imgtxt{
+              margin-top: 71px;
+              .s_info{
+                display: block;
+                width: 785px;
+                max-width: 785px;
+                transform: translateX(0px);
+                margin-left: 0px;
+                padding-right: 0px;
+                .s_titdetail{
+                  width: 100%;
+                  padding: 0px;
+                }
+                .s_detail{
+                  width: 100%;
+                  margin-top: 28px;
+                }
+                .s_form{
+                  margin-top: 38px;
+                  padding: 0px;
+                  width: 785px;
+                }
+              }
+              figure{
+                position: absolute;
+                right: 0px;
+                left: auto;
+                top: 9px;
+                width: 486px;
+                height: 486px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

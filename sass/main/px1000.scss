@@ -1,0 +1,262 @@
+@media only screen and (min-width: 1000px){
+  main{
+    .c__contents{
+      .u__sect{
+        &.c__futurehealth{
+          .u__content{
+            .u__img{
+              max-width: 1010px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+            .s_titdesc{
+              img{
+                max-width: 1010px;
+                margin: 0 auto;
+              }
+              .s_centerbox{
+                .s_desc{
+                  margin-top: 78px;
+                  p{
+                    font-family: 'Roobert Regular';
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.c__specialists{
+          .u__content{
+            .s_programbox{
+              top: 302px;
+            }
+            .s_programmesdiagram{
+              margin-top: 42px;
+            }
+          }
+        }
+        &.c__advancing{
+          .u__content{
+            .u__shapelinear{
+              &:nth-child(2){
+                width: 1547px;
+                height: 614px;
+                right: calc(100vw - 558px);
+                top: 616px;
+                &:before{
+                  border-radius: 307px;
+                }
+              }
+              &:nth-child(3){
+                left: auto;
+                right: 242px;
+                top: 1351px;
+                opacity: 1;
+              }
+              &:nth-child(4){
+                width: 1105px;
+                height: 438px;
+                top: 1613px;
+                left: 537px;
+                opacity: 1;
+              }
+              &:nth-child(5){
+                width: 1105px;
+                height: 438px;
+                left: auto;
+                right: 282px;
+                top: 2429px;
+                opacity: 1;
+              }
+            }
+            .s_absimg{
+              width: 427px;
+              height: 214px;
+              border-radius: 107px;
+              &.v_vertical{
+                width: 214px;
+                height: 427px;
+              }
+              &:nth-child(6){
+                top: 1468px;
+                left: auto;
+                right:28px;
+              }
+              &:nth-child(7){
+                top: 1655px;
+                left: auto;
+                right:-209px;
+              }
+              &:nth-child(8){
+                top: 2132px;
+                left: -125px;
+              }
+              &:nth-child(9){
+                top: 2108px;
+                left:252px;
+              }
+              &:nth-child(10){
+                top: 2591px;
+                left: 124px;
+              }
+              &:nth-child(11){
+                top: 2455px;
+                left: auto;
+                right: 0px;
+              }
+            }
+            .s_image{
+              width:596px;
+              left: auto;
+              right: 51px;
+              top: 631px;
+            }
+            .s_copy{
+              margin-top: 282px;
+              display: flex;
+              width: 775px;
+              .s_detail{
+                width: 520px;
+                p{
+                  font-size: 22px;
+                  line-height: 30px;
+                }
+              }
+              .s_logo{
+                margin-top: 11px;
+                height: 149px;
+                width: 255px;
+                padding-left: 80px;
+              }
+            }
+            .u__arrow{
+              margin-top: 171px;
+            }
+            .s_healthcaresbox{
+              margin-top: 275px;
+              .s_detail{
+                max-width: 534px;
+                margin-top: 62px;
+                margin-left: 37px;
+                p{
+                  font-size: 22px;
+                  line-height: 30px;
+                }
+              }
+              .u__arrow{
+                margin-top: 901px;
+              }
+            }
+          }
+        }
+        &.c__approach{
+          padding-bottom: 136px;
+          .u__content{
+            .u__bg{
+              top: 370px;
+            }
+            .u__shapelinear{
+              top: 418px;
+              left: auto;
+              right:52px;
+              &:before{
+                border-radius: 458px;
+              }
+            }
+            .u__arrow{
+              margin-top: 234px;
+            }
+          }
+        }
+        &.c__services{
+          .u__content{
+            .u__shapelinear{
+              &:nth-child(1){
+                left: auto;
+                right:344px;
+                top: 442px;
+                opacity: 1;
+              }
+              &:nth-child(2){
+                display: block;
+                width: 1107px;
+                height: 440px;
+                left: auto;
+                right: -40px;
+                opacity: 1;
+                top: 777px;
+              }
+            }
+            .s_detail{
+              max-width: 650px;
+              margin-top: 647px;
+            }
+            .s_imglist{
+              margin-left: calc(50% - 610px);
+              width: 1220px;
+              height: 496px;
+              top: 395px;
+              figure{
+                width: 322px;
+                height: 322px;
+                &:nth-child(1){
+                  left: 0px;
+                  bottom: 0px;
+                }
+                &:nth-child(2){
+                  left: 233px;
+                  top: 0px;
+                }
+                &:nth-child(3){
+                  left: 451px;
+                  bottom: 0px;
+                }
+                &:nth-child(4){
+                  left: 675px;
+                  top: 0px;
+                }
+                &:nth-child(5){
+                  right: 0px;
+                  bottom: 0px;
+                }
+              }
+            }
+          }
+        }
+        &.c__visitus{
+          padding-bottom: 184px;
+          .u__content{
+            .s_imgtxt{
+              margin-top: 71px;
+              .s_info{
+                display: flex;
+                justify-content: space-between;
+                width: calc(100% + 90px);
+                max-width:calc(100% + 90px);
+                transform: translateX(-45px);
+                .s_titdetail{
+                  width: 402px;
+                }
+                .s_detail{
+                  margin-top: 30px;
+                }
+                .s_form{
+                  margin-top:32px;
+                  width: 611px;
+                  padding: 0 45px;
+                }
+              }
+              figure{
+                width: 309px;
+                height: 309px;
+                top: 198px;
+                left: 0px;
+                transform: translateX(0px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
