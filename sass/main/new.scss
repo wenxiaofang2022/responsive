@@ -142,6 +142,106 @@ main.p__subpages.s_ourscience{
     }
   }
 }
+main.p__subpages.s_ourscience.s_ourcompany{
+  .c__contents{
+    .c__subpageintro{
+      .s_bigtit{
+        div{
+          width: 229px;
+          &:nth-child(2){
+            span{
+              width: 199px;
+            }
+          }
+        }
+      }
+      figure{
+        display: none;
+      }
+      h2{
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        font-family:'Roobert Bold';
+      }
+      .s_detail{
+        margin-top: 39px;
+        p{
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+    .c__medicalpanel{
+      .s_bigtit{
+        margin-bottom: 0px;
+        div{
+          width: 308px;
+        }
+      }
+      .s_medicalpanellist{
+        padding-top: 50px;
+      }
+    }
+  }
+}
+main.p__subpages.s_ourscience.s_findus{
+  .c__contents{
+    .c__subpageintro{
+      padding-bottom: 101px;
+      .s_bigtit{
+        margin-bottom: 50px;
+        div{
+          width: 317px;
+          &:nth-child(1){
+            text-align: center;
+          }
+          &:nth-child(2){
+            text-align: left;
+          }
+          &:nth-child(3){
+            text-align: right;
+            margin: 0 auto;
+          }
+          &:nth-child(3){
+            margin-top: 7px;
+          }
+          span{
+            width: auto;
+          }
+        }
+      }
+      .c__relatelist{
+        div{
+          .s_relate{
+            margin-top: 46px;
+            &:nth-child(1){
+              margin-top: 0px;
+            }
+            figure{
+              max-width: 220px;
+              margin: 0 auto;
+            }
+            .s_name{
+              font-size: 18px;
+              line-height: 23px;
+              text-align: center;
+              margin-top: 19px;
+            }
+            .s_desc{
+              font-size: 14px;
+              line-height: 20px;
+              padding-bottom: 0px;
+              padding-top: 14px;
+              margin-top: 17px;
+              border-top: 1px solid #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @media only screen and (min-width: 668px){
   main.p__subpages.s_ourscience{
     .c__contents{
@@ -249,6 +349,90 @@ main.p__subpages.s_ourscience{
       }
     }
   }
+  main.p__subpages.s_ourscience.s_ourcompany{
+    .c__contents{
+      .c__subpageintro{
+        .s_bigtit{
+          div{
+            width: 325px;
+            &:nth-child(2){
+              span{
+                width: 275px;
+              }
+            }
+          }
+        }
+        h2{
+          font-size: 23px;
+          line-height: 32px;
+        }
+        .s_detail{
+          margin-top: 36px;
+          p{
+            font-size: 16px;
+            line-height: 23px;
+          }
+        }
+      }
+      .c__medicalpanel{
+        .s_bigtit{
+          div{
+            width: 422px;
+          }
+        }
+      }
+    }
+  }
+  main.p__subpages.s_ourscience.s_findus{
+    .c__contents{
+      .c__subpageintro{
+        padding-bottom: 54px;
+        .s_bigtit{
+          margin-bottom: 50px;
+          div{
+            width: 432px;
+            &:nth-child(3){
+              margin-top: 7px;
+            }
+            span{
+              width: auto;
+            }
+          }
+        }
+        .c__relatelist{
+          div{
+            overflow: hidden;
+            width: calc(100% + 50px);
+            margin: 0 auto;
+            margin-left: -25px;
+            .s_relate{
+              float: left;
+              padding: 0 25px;
+              width: 50%;
+              min-height: 516px;
+              margin-top: 45px;
+              &:nth-child(2){
+                margin-top: 0px;
+              }
+              figure{
+                max-width: 100%;
+              }
+              .s_name{
+                font-size: 21px;
+                line-height: 25px;
+                text-align: left;
+              }
+              .s_desc{
+                font-size: 16px;
+                line-height: 23px;
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media only screen and (min-width: 898px){
   main.p__subpages.s_ourscience{
@@ -304,10 +488,312 @@ main.p__subpages.s_ourscience{
         }
       }
       .c__medicalpanel{
-        
+        padding: 274px 40px 0px;
+        .s_bigtit{
+          margin-bottom: 68px;
+          div{
+            width: 563px;
+            height: 80px;
+            span{
+              padding: 0 40px;
+              font-size: 62px;
+              line-height: 74px;
+            }
+            &:nth-child(1){
+              span{
+                width: 331px;
+              }
+            }
+            &:nth-child(2){
+              span{
+                width: 454px;
+              }
+            }
+          }
+        }
+        .s_desc{
+          font-size: 33px;
+          line-height: 42px;
+          max-width: 918px;
+        }
+        .s_medicalpanellist{
+          padding-top: 82px;
+          padding-bottom: 30px;
+          div{
+            .s_medicalpanel{
+              height: 480px;
+              h4{
+                font-size: 26px;
+                line-height: 30px;
+                margin-top: 33px;
+              }
+              .s_department{
+                font-size: 18px;
+                line-height: 24px;
+                margin-top: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  main.p__subpages.s_ourscience.s_ourcompany{
+    .c__contents{
+      .c__subpageintro{
+        .s_bigtit{
+          div{
+            width: 449px;
+            &:nth-child(2){
+              span{
+                width: 347px;
+              }
+            }
+          }
+        }
+        figure{
+          display: block;
+          height: 35px;
+          margin-top: 80px;
+          img{
+            height: 100%;
+            width: auto;
+            margin: 0 auto;
+          }
+        }
+        h2{
+          font-size: 33px;
+          line-height: 42px;
+          max-width: 792px;
+          margin: 0 auto;
+          margin-top: 38px;
+        }
+        .s_detail{
+          max-width: 792px;
+          margin: 0 auto;
+          margin-top: 36px;
+          p{
+            font-size: 18px;
+            line-height: 24px;
+          }
+        }
+      }
+      .c__medicalpanel{
+        .s_bigtit{
+          div{
+            width: 562px;
+            span{
+              width: auto;
+            }
+          }
+        }
+        .s_medicalpanellist{
+          padding-top: 80px;
+        }
+      }
+    }
+  }
+  main.p__subpages.s_ourscience.s_findus{
+    .c__contents{
+      .c__subpageintro{
+        padding-bottom: 130px;
+        .s_bigtit{
+          margin-bottom: 80px;
+          div{
+            width: 578px;
+            span{
+              width: auto;
+            }
+          }
+        }
+        .c__relatelist{
+          div{
+            display: flex;
+            justify-content: space-between;
+            max-width: 1320px;
+            .s_relate{
+              width: 33.33%;
+              &:nth-child(3){
+                margin-top: 0px;
+              }
+              figure{
+                max-width: 100%;
+              }
+              .s_name{
+                font-size: 26px;
+                line-height: 30px;
+                text-align: left;
+                margin-top: 33px;
+              }
+              .s_desc{
+                font-size: 18px;
+                line-height: 24px;
+                text-align: left;
+                margin-top: 21px;
+                padding-top: 19px;
+              }
+            }
+          }
+        }
       }
     }
   }
 }
-@media only screen and (min-width: 1000px){}
-@media only screen and (min-width: 1440px){}
+@media only screen and (min-width: 1000px){
+  main.p__subpages.s_ourscience{
+    .c__contents{
+      .c__subpageintro{
+        .s_desc{
+          font-size: 33px;
+          line-height: 42px;
+          padding-bottom: 32px;
+        }
+        .c__lablist{
+          div{
+            .s_lab{
+              padding: 78px 34px 75px;
+              margin-top: 50px;
+              figure{
+                height: 96px;
+              }
+              .s_name{
+                font-size: 33px;
+                line-height: 42px;
+                margin-top: 39px;
+              }
+              .s_desc{
+                font-size: 18px;
+                line-height: 24px;
+                margin-top: 36px;
+              }
+            }
+          }
+        }
+      }
+      .c__medicalpanel{
+        .s_bigtit{
+          margin-bottom: 70px;
+        }
+        .s_desc{
+          max-width: 971px;
+        }
+        .s_medicalpanellist{
+          padding-top: 82px;
+          padding-bottom: 30px;
+          div{
+            .s_medicalpanel{
+              height: 514px;
+              .s_department{
+                margin-top: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  main.p__subpages.s_ourscience.s_ourcompany{
+    .c__contents{
+      .c__subpageintro{
+        &>div{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          article{
+            width: 50%;
+            &:nth-child(2){
+              max-width: 647px;
+            }
+          }
+          .s_bigtit{
+            width: 437px;
+            div{
+              width: 437px;
+            }
+          }
+          figure{
+            margin-top: 0px;
+            img{
+              margin-left: 0px;
+            }
+          }
+          h2{
+            text-align: left;
+          }
+          .s_detail{
+            margin-top: 35px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1001px){
+  .c__contents{
+    .c__subpageintro{
+      &>div{
+        .s_bigtit{
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1440px){
+  main.p__subpages.s_ourscience{
+    .c__contents{
+      .c__subpageintro{
+        max-width: 100%;
+        div{
+          max-width: 1320px;
+          margin: 0 auto;
+        }
+        .s_bigtit{
+          margin-bottom: 69px;
+        }
+        .s_desc{
+          max-width: 971px;
+        }
+        .c__lablist{
+          display: flex;
+          justify-content: space-between;
+          div{
+            width: 50%;
+            max-width: 647px;
+            .s_lab{
+              padding: 95px 34px 79px;
+              margin-top: 50px;
+              .s_name{
+                margin-top: 38px;
+              }
+            }
+          }
+        }
+      }
+      .c__medicalpanel{
+        padding: 274px 60px 0px;
+        .s_bigtit{
+          margin-bottom: 70px;
+        }
+        .s_medicalpanellist{
+          padding-top: 83px;
+          padding-bottom: 31px;
+          div{
+            max-width: 1345px;
+            .s_medicalpanel{
+              height: 535px;
+              max-width: 336px;
+              figure{
+                max-width: 311px;
+              }
+              h4{
+                margin-top: 34px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
